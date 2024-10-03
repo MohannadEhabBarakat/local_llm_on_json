@@ -3,8 +3,8 @@ This file contains the logic for extracting information from the data files.
 
 Functions (ideas not actual functions):
     extract_data takes the prompt1 output (see in logicNotes.txt) calls either summarization_extract_data or sortable_extract_data depending on the task.
-    summarization_extract_data takes a list of one key and a list of counties. Return relative data
-    sortable_extract_data takes a list of one or more keys and a list of counties. Format the data in a way that it can be sorted. return a list of dictionaries with the keys being the counties and the values being the data for that county. 
+    summarization_extract_data takes a list of one key and a list of countries. Return relative data
+    sortable_extract_data takes a list of one or more keys and a list of countries. Format the data in a way that it can be sorted. return a list of dictionaries with the keys being the countries and the values being the data for that county. 
 
     answer:
         1- Use model to get extract keys
@@ -13,52 +13,52 @@ Functions (ideas not actual functions):
 """
 
 from typing import Dict, List, Tuple
-from .model import *
+# from model import *
 
-def extract_data(response:Dict, data:Dict) -> Dict:
+def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> Dict:
 
     task = response["task"]
     if task == "summarization":
-        return summarization_extract_data(response["key"], response["counties"], data)
+        return summarization_extract_data(response["key"], response["countries"], summarization_data)
     else:
         sub_key = response["subkey"] if "subkey" in response else None  
-        return sortable_extract_data(task, response["key"], response["counties"], response["max_counties"], data, sub_key) 
+        return sortable_extract_data(task, response["key"], response["countries"], response["max_countries"], sortable_data, sub_key) 
     
-def summarization_extract_data(key:str, counties:List[str], data:Dict) -> Dict:
+def summarization_extract_data(key:str, countries:List[str], data:Dict) -> Dict:
     """
     Extracts the data for the summarization task.
 
     Args:
         key (str): A key extract from the data.
-        counties (list): A list of counties to extract data for.
+        countries (list): A list of countries to extract data for.
 
     Returns:
         list: A list of dictionaries containing the extracted data.
     """
     extracted_data = {}
-    counties = counties if counties[0] != "all" else list(data)
-    for county in counties:
+    countries = countries if countries[0] != "all" else list(data)
+    for county in countries:
         extracted_data[county] = data[county][key]
 
     countries = list(extracted_data.keys())
 
     return {"countries": countries, "evedance": extracted_data}
 
-def sortable_extract_data(task:str, key:str, counties:List[str], max_counties:int, data:Dict, subkey:str=None) -> Dict:
+def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:int, data:Dict, subkey:str=None) -> Dict:
     """
     Extracts the data for the sortable task.
 
     Args:
         keys (str): A list of keys to extract from the data.
-        counties (list): A list of counties to extract data for.
-        max_counties (int): The maximum number of counties to return.
+        countries (list): A list of countries to extract data for.
+        max_countries (int): The maximum number of countries to return.
 
     Returns:
         list: A list of dictionaries containing the extracted data.
     """
     extracted_data = {}
-    counties = counties if counties[0] != "all" else list(data)
-    for county in counties:
+    countries = countries if countries[0] != "all" else list(data)
+    for county in countries:
         info = data[county]
         info = info[key]
         if subkey: info = info[subkey]
@@ -67,15 +67,17 @@ def sortable_extract_data(task:str, key:str, counties:List[str], max_counties:in
         extracted_data[county] = info
 
     if task == "list_accending":
-        countries  = sorted(extracted_data.items(), key=lambda x: x[1])
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
     elif task == "list_decending":
-        countries  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
+        print("list_decending")
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
     else:
+        print("list_unordered")
         countries  = list(extracted_data.keys())
+        evedance = list(extracted_data.items())
     
-    countries = countries[:max_counties]
-
-    evedance = [(country, extract_data[country]) for country in countries]
+    evedance = evedance[:max_countries]
+    countries = [country for country,_ in evedance]
 
     return {"countries": countries, "evedance": evedance}
 
@@ -91,13 +93,32 @@ def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
 
     for country in countries:
         if evedance[country] == None:
-            
+            evedance.pop(country)
+    
+    return {"countries": list(evedance.keys()), "evedance": evedance}
 
 
 def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
-    pass
+    return extracted_data
 
-def answer(question:str, data:Dict) -> Dict:
-    response = route(question)
-    extracted_data = extract_data(response, data)
+def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
+    # response = route(question)
+
+    response = '''
+    {
+        "countries": ["all"],
+        "task": "summarization",
+        "key": "outStandings"
+    }
+    '''
+
+    response = json.loads(response)
+    extracted_data = extract_data(response, sortable_data, summarization_data)
     return format_data(extracted_data, response["task"], question)
+
+
+if __name__ == "__main__":
+    from data_cleaning import *
+    sortable_data, summarization_data = data_load()
+    question = ""
+    print(answer(question, sortable_data, summarization_data))
