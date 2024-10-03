@@ -1,0 +1,7969 @@
+{
+    "Zimbabwe": {
+        "country": 67.0,
+        "moi": 8.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 52.0,
+                "EssTrd": 55.0
+            }
+        ]
+    },
+    "Falkland Islands": {
+        "country": 61.0,
+        "moi": 2.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 62.0,
+                "EssTrd": 43.0
+            }
+        ]
+    },
+    "Antarctica": {
+        "country": 103.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 1.0
+            }
+        ]
+    },
+    "Colombia": {
+        "country": 75.0,
+        "moi": 7.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 94.0,
+                "EssTrd": 29.0
+            }
+        ]
+    },
+    "Iceland": {
+        "country": 8.0,
+        "moi": 2.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 90.0,
+                "EssTrd": 65.0
+            }
+        ]
+    },
+    "Laos": {
+        "country": 139.0,
+        "moi": 7.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 91.0,
+                "EssTrd": 30.0
+            }
+        ]
+    },
+    "Timor-Leste": {
+        "country": 4.0,
+        "moi": 1.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 4.0
+            }
+        ]
+    },
+    "Mexico": {
+        "country": 143.0,
+        "moi": 7.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 26.0,
+                "EssTrd": 68.0
+            }
+        ]
+    },
+    "Angola": {
+        "country": 158.0,
+        "moi": 2.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 92.0,
+                "EssTrd": 4.0
+            }
+        ]
+    },
+    "Nepal": {
+        "country": 128.0,
+        "moi": 3.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 56.0,
+                "EssTrd": 20.0
+            }
+        ]
+    },
+    "Benin": {
+        "country": 128.0,
+        "moi": 4.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 98.0,
+                "EssTrd": 47.0
+            }
+        ]
+    },
+    "Algeria": {
+        "country": 195.0,
+        "moi": 3.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 40.0,
+                "EssTrd": 78.0
+            }
+        ]
+    },
+    "Spain": {
+        "country": 109.0,
+        "moi": 8.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 38.0,
+                "EssTrd": 0.0
+            }
+        ]
+    },
+    "Kosovo": {
+        "country": 65.0,
+        "moi": 7.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 87.0,
+                "EssTrd": 72.0
+            }
+        ]
+    },
+    "United States": {
+        "country": 55.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 67.0,
+                "EssTrd": 17.0
+            }
+        ]
+    },
+    "Heard Island and McDonald Islands": {
+        "country": 38.0,
+        "moi": 8.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 52.0,
+                "EssTrd": 58.0
+            }
+        ]
+    },
+    "Bolivia": {
+        "country": 110.0,
+        "moi": 5.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 50.0,
+                "EssTrd": 7.0
+            }
+        ]
+    },
+    "Montenegro": {
+        "country": 46.0,
+        "moi": 3.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 56.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "Uganda": {
+        "country": 41.0,
+        "moi": 0.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 16.0,
+                "EssTrd": 96.0
+            }
+        ]
+    },
+    "Niger": {
+        "country": 96.0,
+        "moi": 8.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 84.0
+            }
+        ]
+    },
+    "Cyprus": {
+        "country": 143.0,
+        "moi": 5.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 31.0,
+                "EssTrd": 97.0
+            }
+        ]
+    },
+    "Canada": {
+        "country": 49.0,
+        "moi": 7.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 36.0
+            }
+        ]
+    },
+    "Cayman Islands": {
+        "country": 92.0,
+        "moi": 7.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 59.0
+            }
+        ]
+    },
+    "China": {
+        "country": 85.0,
+        "moi": 3.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 9.0,
+                "EssTrd": 9.0
+            }
+        ]
+    },
+    "Martinique": {
+        "country": 30.0,
+        "moi": 3.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 78.0,
+                "EssTrd": 81.0
+            }
+        ]
+    },
+    "Liechtenstein": {
+        "country": 121.0,
+        "moi": 8.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 28.0,
+                "EssTrd": 29.0
+            }
+        ]
+    },
+    "Jamaica": {
+        "country": 126.0,
+        "moi": 9.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 16.0,
+                "EssTrd": 0.0
+            }
+        ]
+    },
+    "Bouvet Island": {
+        "country": 147.0,
+        "moi": 5.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 88.0,
+                "EssTrd": 40.0
+            }
+        ]
+    },
+    "Morocco": {
+        "country": 98.0,
+        "moi": 5.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 82.0,
+                "EssTrd": 74.0
+            }
+        ]
+    },
+    "Cambodia": {
+        "country": 44.0,
+        "moi": 7.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 20.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Bahrain": {
+        "country": 73.0,
+        "moi": 3.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 62.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "Grenada": {
+        "country": 135.0,
+        "moi": 7.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 63.0,
+                "EssTrd": 94.0
+            }
+        ]
+    },
+    "Uzbekistan": {
+        "country": 104.0,
+        "moi": 9.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 7.0,
+                "EssTrd": 66.0
+            }
+        ]
+    },
+    "Malaysia": {
+        "country": 36.0,
+        "moi": 4.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 39.0,
+                "EssTrd": 15.0
+            }
+        ]
+    },
+    "Sudan": {
+        "country": 202.0,
+        "moi": 7.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 38.0,
+                "EssTrd": 90.0
+            }
+        ]
+    },
+    "Cape Verde": {
+        "country": 54.0,
+        "moi": 4.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 92.0,
+                "EssTrd": 21.0
+            }
+        ]
+    },
+    "South Sudan": {
+        "country": 50.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 34.0,
+                "EssTrd": 67.0
+            }
+        ]
+    },
+    "Guatemala": {
+        "country": 60.0,
+        "moi": 2.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 57.0,
+                "EssTrd": 8.0
+            }
+        ]
+    },
+    "Chile": {
+        "country": 234.0,
+        "moi": 9.0,
+        "defense": 10.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 10.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 10.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 97.0,
+                "EssTrd": 46.0
+            }
+        ]
+    },
+    "Gibraltar": {
+        "country": 84.0,
+        "moi": 8.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 70.0,
+                "EssTrd": 77.0
+            }
+        ]
+    },
+    "Pitcairn Islands": {
+        "country": 72.0,
+        "moi": 9.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 36.0,
+                "EssTrd": 78.0
+            }
+        ]
+    },
+    "Tuvalu": {
+        "country": 57.0,
+        "moi": 4.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 36.0
+            }
+        ]
+    },
+    "Republic of the Congo": {
+        "country": 66.0,
+        "moi": 5.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 26.0,
+                "EssTrd": 97.0
+            }
+        ]
+    },
+    "Honduras": {
+        "country": 64.0,
+        "moi": 6.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 56.0,
+                "EssTrd": 26.0
+            }
+        ]
+    },
+    "Greece": {
+        "country": 107.0,
+        "moi": 5.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 34.0,
+                "EssTrd": 28.0
+            }
+        ]
+    },
+    "Trinidad and Tobago": {
+        "country": 30.0,
+        "moi": 8.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 92.0
+            }
+        ]
+    },
+    "Egypt": {
+        "country": 64.0,
+        "moi": 4.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 42.0,
+                "EssTrd": 68.0
+            }
+        ]
+    },
+    "Somalia": {
+        "country": 144.0,
+        "moi": 7.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 80.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Venezuela": {
+        "country": 12.0,
+        "moi": 7.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 87.0,
+                "EssTrd": 56.0
+            }
+        ]
+    },
+    "Barbados": {
+        "country": 111.0,
+        "moi": 3.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 20.0,
+                "EssTrd": 70.0
+            }
+        ]
+    },
+    "Burkina Faso": {
+        "country": 124.0,
+        "moi": 3.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 5.0
+            }
+        ]
+    },
+    "Belarus": {
+        "country": 98.0,
+        "moi": 7.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": 0.0,
+                "Invest": 4.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": null,
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 38.0,
+                "EssTrd": 19.0
+            }
+        ]
+    },
+    "Zambia": {
+        "country": 196.0,
+        "moi": 2.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 94.0,
+                "EssTrd": 23.0
+            }
+        ]
+    },
+    "Saint Pierre and Miquelon": {
+        "country": 133.0,
+        "moi": 5.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 62.0,
+                "EssTrd": 49.0
+            }
+        ]
+    },
+    "South Korea": {
+        "country": 135.0,
+        "moi": 5.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 30.0,
+                "EssTrd": 70.0
+            }
+        ]
+    },
+    "Moldova": {
+        "country": 107.0,
+        "moi": 0.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 99.0,
+                "EssTrd": 36.0
+            }
+        ]
+    },
+    "France": {
+        "country": 140.0,
+        "moi": 2.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 83.0,
+                "EssTrd": 15.0
+            }
+        ]
+    },
+    "Senegal": {
+        "country": 59.0,
+        "moi": 9.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 61.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "Iraq": {
+        "country": 101.0,
+        "moi": 9.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 65.0,
+                "EssTrd": 59.0
+            }
+        ]
+    },
+    "Hong Kong": {
+        "country": 75.0,
+        "moi": 2.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 91.0,
+                "EssTrd": 62.0
+            }
+        ]
+    },
+    "Jersey": {
+        "country": 33.0,
+        "moi": 6.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 82.0
+            }
+        ]
+    },
+    "Liberia": {
+        "country": 65.0,
+        "moi": 1.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 25.0,
+                "EssTrd": 79.0
+            }
+        ]
+    },
+    "Fiji": {
+        "country": 14.0,
+        "moi": 3.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 64.0,
+                "EssTrd": 72.0
+            }
+        ]
+    },
+    "Western Sahara": {
+        "country": 137.0,
+        "moi": 4.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 40.0,
+                "EssTrd": 18.0
+            }
+        ]
+    },
+    "Chad": {
+        "country": 48.0,
+        "moi": 8.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 55.0,
+                "EssTrd": 57.0
+            }
+        ]
+    },
+    "Netherlands": {
+        "country": 83.0,
+        "moi": 7.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 52.0,
+                "EssTrd": 34.0
+            }
+        ]
+    },
+    "Oman": {
+        "country": 74.0,
+        "moi": 5.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": 1.0,
+                "Invest": 1.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 1.0,
+                "EssTrd": 1.0
+            }
+        ]
+    },
+    "Luxembourg": {
+        "country": 13.0,
+        "moi": 3.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 96.0,
+                "EssTrd": 81.0
+            }
+        ]
+    },
+    "Turkey": {
+        "country": 108.0,
+        "moi": 1.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 10.0,
+                "EssTrd": 10.0
+            }
+        ]
+    },
+    "Taiwan": {
+        "country": 39.0,
+        "moi": 7.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 4.0,
+                "EssTrd": 16.0
+            }
+        ]
+    },
+    "Jordan": {
+        "country": 67.0,
+        "moi": 3.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 68.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Philippines": {
+        "country": 2.0,
+        "moi": 3.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 70.0
+            }
+        ]
+    },
+    "Northern Mariana Islands": {
+        "country": 23.0,
+        "moi": 6.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 45.0,
+                "EssTrd": 33.0
+            }
+        ]
+    },
+    "United Kingdom": {
+        "country": 127.0,
+        "moi": 5.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": 7.0,
+                "Invest": 7.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 10.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 25.0,
+                "EssTrd": 20.0
+            }
+        ]
+    },
+    "United Arab Emirates": {
+        "country": 213.0,
+        "moi": 3.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 10.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 41.0,
+                "EssTrd": 98.0
+            }
+        ]
+    },
+    "Togo": {
+        "country": 20.0,
+        "moi": 8.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 37.0,
+                "EssTrd": 57.0
+            }
+        ]
+    },
+    "Saint Kitts and Nevis": {
+        "country": 109.0,
+        "moi": 2.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 39.0,
+                "EssTrd": 1.0
+            }
+        ]
+    },
+    "Uruguay": {
+        "country": 230.0,
+        "moi": 5.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 55.0,
+                "EssTrd": 96.0
+            }
+        ]
+    },
+    "Mongolia": {
+        "country": 42.0,
+        "moi": 0.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 36.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Finland": {
+        "country": 80.0,
+        "moi": 5.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": 0.0,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 10.0,
+                "EssTrd": 9.0
+            }
+        ]
+    },
+    "Portugal": {
+        "country": 101.0,
+        "moi": 2.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 39.0,
+                "EssTrd": 11.0
+            }
+        ]
+    },
+    "Anguilla": {
+        "country": 74.0,
+        "moi": 6.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 41.0,
+                "EssTrd": 84.0
+            }
+        ]
+    },
+    "Turks and Caicos Islands": {
+        "country": 23.0,
+        "moi": 9.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 26.0
+            }
+        ]
+    },
+    "Mauritius": {
+        "country": 25.0,
+        "moi": 8.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 30.0,
+                "EssTrd": 8.0
+            }
+        ]
+    },
+    "Belgium": {
+        "country": 38.0,
+        "moi": 1.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 36.0,
+                "EssTrd": 94.0
+            }
+        ]
+    },
+    "Denmark": {
+        "country": 64.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 67.0,
+                "EssTrd": 45.0
+            }
+        ]
+    },
+    "Poland": {
+        "country": 100.0,
+        "moi": 9.0,
+        "defense": 10.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 17.0,
+                "EssTrd": 40.0
+            }
+        ]
+    },
+    "Norfolk Island": {
+        "country": 0.0,
+        "moi": 6.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 87.0,
+                "EssTrd": 21.0
+            }
+        ]
+    },
+    "Ecuador": {
+        "country": 26.0,
+        "moi": 8.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 15.0,
+                "EssTrd": 80.0
+            }
+        ]
+    },
+    "Tanzania": {
+        "country": 41.0,
+        "moi": 9.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 25.0,
+                "EssTrd": 16.0
+            }
+        ]
+    },
+    "Vietnam": {
+        "country": 111.0,
+        "moi": 8.0,
+        "defense": null,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": 5.0,
+                "Invest": 4.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 10.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 10.0,
+                "EssTrd": 9.0
+            }
+        ]
+    },
+    "Guam": {
+        "country": 57.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 3.0,
+                "EssTrd": 59.0
+            }
+        ]
+    },
+    "Ghana": {
+        "country": 145.0,
+        "moi": 3.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 3.0
+            }
+        ]
+    },
+    "Christmas Island": {
+        "country": 100.0,
+        "moi": 5.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 54.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Ukraine": {
+        "country": 137.0,
+        "moi": 9.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 29.0,
+                "EssTrd": 58.0
+            }
+        ]
+    },
+    "Niue": {
+        "country": 92.0,
+        "moi": 0.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 95.0,
+                "EssTrd": 48.0
+            }
+        ]
+    },
+    "Argentina": {
+        "country": 178.0,
+        "moi": 7.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 54.0
+            }
+        ]
+    },
+    "Montserrat": {
+        "country": 21.0,
+        "moi": 9.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 32.0,
+                "EssTrd": 19.0
+            }
+        ]
+    },
+    "Gabon": {
+        "country": 141.0,
+        "moi": 7.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 0.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Qatar": {
+        "country": 33.0,
+        "moi": 4.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 40.0,
+                "EssTrd": 40.0
+            }
+        ]
+    },
+    "Djibouti": {
+        "country": 52.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 68.0,
+                "EssTrd": 58.0
+            }
+        ]
+    },
+    "Libya": {
+        "country": 220.0,
+        "moi": 1.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 10.0,
+                "MultLoy": 10.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 71.0,
+                "EssTrd": 70.0
+            }
+        ]
+    },
+    "Norway": {
+        "country": 75.0,
+        "moi": 4.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 37.0
+            }
+        ]
+    },
+    "Brunei": {
+        "country": 38.0,
+        "moi": 9.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 78.0,
+                "EssTrd": 73.0
+            }
+        ]
+    },
+    "Sweden": {
+        "country": 58.0,
+        "moi": 0.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 7.0,
+                "EssTrd": 12.0
+            }
+        ]
+    },
+    "Bhutan": {
+        "country": 2.0,
+        "moi": 7.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 46.0
+            }
+        ]
+    },
+    "El Salvador": {
+        "country": 104.0,
+        "moi": 1.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 78.0,
+                "EssTrd": 92.0
+            }
+        ]
+    },
+    "Azerbaijan": {
+        "country": 124.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 22.0,
+                "EssTrd": 74.0
+            }
+        ]
+    },
+    "Myanmar": {
+        "country": 104.0,
+        "moi": 4.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 43.0
+            }
+        ]
+    },
+    "Lesotho": {
+        "country": 140.0,
+        "moi": 7.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 49.0,
+                "EssTrd": 36.0
+            }
+        ]
+    },
+    "Kuwait": {
+        "country": 35.0,
+        "moi": 2.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 79.0,
+                "EssTrd": 22.0
+            }
+        ]
+    },
+    "Saint Barth\u00e9lemy": {
+        "country": 126.0,
+        "moi": 5.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 41.0,
+                "EssTrd": 44.0
+            }
+        ]
+    },
+    "Kiribati": {
+        "country": 145.0,
+        "moi": 3.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 85.0,
+                "EssTrd": 75.0
+            }
+        ]
+    },
+    "South Africa": {
+        "country": 189.0,
+        "moi": 8.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 24.0,
+                "EssTrd": 96.0
+            }
+        ]
+    },
+    "Lithuania": {
+        "country": 129.0,
+        "moi": 7.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 14.0,
+                "EssTrd": 88.0
+            }
+        ]
+    },
+    "Switzerland": {
+        "country": 61.0,
+        "moi": 8.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 72.0
+            }
+        ]
+    },
+    "Eritrea": {
+        "country": 33.0,
+        "moi": 5.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 73.0
+            }
+        ]
+    },
+    "Equatorial Guinea": {
+        "country": 48.0,
+        "moi": 9.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 63.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "New Zealand": {
+        "country": 73.0,
+        "moi": 7.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 77.0,
+                "EssTrd": 94.0
+            }
+        ]
+    },
+    "Iran": {
+        "country": 39.0,
+        "moi": 2.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 20.0,
+                "EssTrd": 17.0
+            }
+        ]
+    },
+    "Turkmenistan": {
+        "country": 114.0,
+        "moi": 7.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 51.0,
+                "EssTrd": 71.0
+            }
+        ]
+    },
+    "Saint Helena, Ascension and Tristan da Cunha": {
+        "country": 95.0,
+        "moi": 9.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 32.0,
+                "EssTrd": 31.0
+            }
+        ]
+    },
+    "Ethiopia": {
+        "country": 123.0,
+        "moi": 10.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 4.0,
+                "EssTrd": 54.0
+            }
+        ]
+    },
+    "DR Congo": {
+        "country": 177.0,
+        "moi": 2.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            },
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 38.0,
+                "EssTrd": 81.0
+            }
+        ]
+    },
+    "Bulgaria": {
+        "country": 34.0,
+        "moi": 2.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 1.0,
+                "EssTrd": 2.0
+            }
+        ]
+    },
+    "North Macedonia": {
+        "country": 149.0,
+        "moi": 0.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 80.0
+            }
+        ]
+    },
+    "Tajikistan": {
+        "country": 23.0,
+        "moi": 9.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 33.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "Kenya": {
+        "country": 103.0,
+        "moi": 5.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 86.0,
+                "EssTrd": 21.0
+            }
+        ]
+    },
+    "Malta": {
+        "country": 124.0,
+        "moi": 8.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 69.0,
+                "EssTrd": 37.0
+            }
+        ]
+    },
+    "Peru": {
+        "country": 85.0,
+        "moi": 3.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 2.0,
+                "EssTrd": 33.0
+            }
+        ]
+    },
+    "Nicaragua": {
+        "country": 98.0,
+        "moi": 5.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 12.0,
+                "EssTrd": 36.0
+            }
+        ]
+    },
+    "Dominica": {
+        "country": 39.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 49.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "South Georgia": {
+        "country": 38.0,
+        "moi": 0.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 79.0,
+                "EssTrd": 91.0
+            }
+        ]
+    },
+    "United States Minor Outlying Islands": {
+        "country": 59.0,
+        "moi": 3.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 22.0,
+                "EssTrd": 79.0
+            }
+        ]
+    },
+    "San Marino": {
+        "country": 100.0,
+        "moi": 8.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 70.0,
+                "EssTrd": 86.0
+            }
+        ]
+    },
+    "New Caledonia": {
+        "country": 47.0,
+        "moi": 6.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 41.0,
+                "EssTrd": 17.0
+            }
+        ]
+    },
+    "Afghanistan": {
+        "country": 117.0,
+        "moi": 8.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": 5.0,
+                "Invest": 1.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 13.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Mauritania": {
+        "country": 109.0,
+        "moi": 4.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 67.0
+            }
+        ]
+    },
+    "Saint Vincent and the Grenadines": {
+        "country": 76.0,
+        "moi": 4.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 14.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Rwanda": {
+        "country": 11.0,
+        "moi": 5.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 4.0
+            }
+        ]
+    },
+    "Micronesia": {
+        "country": 48.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 20.0,
+                "EssTrd": 99.0
+            }
+        ]
+    },
+    "British Indian Ocean Territory": {
+        "country": 18.0,
+        "moi": 7.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 19.0,
+                "EssTrd": 42.0
+            }
+        ]
+    },
+    "Mayotte": {
+        "country": 16.0,
+        "moi": 1.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 70.0,
+                "EssTrd": 22.0
+            }
+        ]
+    },
+    "Guinea": {
+        "country": 42.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 22.0,
+                "EssTrd": 25.0
+            }
+        ]
+    },
+    "Latvia": {
+        "country": 183.0,
+        "moi": 9.0,
+        "defense": 10.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 71.0,
+                "EssTrd": 48.0
+            }
+        ]
+    },
+    "French Polynesia": {
+        "country": 100.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 8.0,
+                "EssTrd": 60.0
+            }
+        ]
+    },
+    "India": {
+        "country": 80.0,
+        "moi": 1.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 63.0,
+                "EssTrd": 90.0
+            }
+        ]
+    },
+    "Solomon Islands": {
+        "country": 96.0,
+        "moi": 8.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 67.0,
+                "EssTrd": 34.0
+            }
+        ]
+    },
+    "Antigua and Barbuda": {
+        "country": 113.0,
+        "moi": 9.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 44.0,
+                "EssTrd": 58.0
+            }
+        ]
+    },
+    "Austria": {
+        "country": 113.0,
+        "moi": 3.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 84.0,
+                "EssTrd": 7.0
+            }
+        ]
+    },
+    "Comoros": {
+        "country": 33.0,
+        "moi": 0.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 39.0,
+                "EssTrd": 6.0
+            }
+        ]
+    },
+    "R\u00e9union": {
+        "country": 103.0,
+        "moi": 9.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 93.0,
+                "EssTrd": 96.0
+            }
+        ]
+    },
+    "Japan": {
+        "country": 162.0,
+        "moi": 6.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 98.0
+            }
+        ]
+    },
+    "Vatican City": {
+        "country": 133.0,
+        "moi": 1.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 82.0,
+                "EssTrd": 17.0
+            }
+        ]
+    },
+    "Syria": {
+        "country": 17.0,
+        "moi": 0.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 15.0,
+                "EssTrd": 90.0
+            }
+        ]
+    },
+    "Slovakia": {
+        "country": 71.0,
+        "moi": 6.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 92.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Belize": {
+        "country": 32.0,
+        "moi": 2.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 32.0,
+                "EssTrd": 96.0
+            }
+        ]
+    },
+    "Kyrgyzstan": {
+        "country": 66.0,
+        "moi": 4.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 36.0,
+                "EssTrd": 65.0
+            }
+        ]
+    },
+    "Indonesia": {
+        "country": 210.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 94.0,
+                "EssTrd": 62.0
+            }
+        ]
+    },
+    "Central African Republic": {
+        "country": 64.0,
+        "moi": 0.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 51.0
+            }
+        ]
+    },
+    "Pakistan": {
+        "country": 131.0,
+        "moi": 4.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 24.0,
+                "EssTrd": 66.0
+            }
+        ]
+    },
+    "Singapore": {
+        "country": 124.0,
+        "moi": 2.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 10.0,
+                "EssTrd": 69.0
+            }
+        ]
+    },
+    "Cura\u00e7ao": {
+        "country": 144.0,
+        "moi": 5.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 84.0,
+                "EssTrd": 78.0
+            }
+        ]
+    },
+    "American Samoa": {
+        "country": 60.0,
+        "moi": 2.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 56.0
+            }
+        ]
+    },
+    "Botswana": {
+        "country": 79.0,
+        "moi": 9.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 31.0,
+                "EssTrd": 55.0
+            }
+        ]
+    },
+    "Caribbean Netherlands": {
+        "country": 58.0,
+        "moi": 5.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 97.0,
+                "EssTrd": 17.0
+            }
+        ]
+    },
+    "Mozambique": {
+        "country": 41.0,
+        "moi": 0.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 94.0,
+                "EssTrd": 74.0
+            }
+        ]
+    },
+    "Kazakhstan": {
+        "country": 138.0,
+        "moi": 0.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": 0.0,
+                "Invest": 0.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 7.0,
+                "EssTrd": 62.0
+            }
+        ]
+    },
+    "Germany": {
+        "country": 75.0,
+        "moi": 0.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 5.0,
+                "EssTrd": 80.0
+            }
+        ]
+    },
+    "Bangladesh": {
+        "country": 77.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 72.0,
+                "EssTrd": 95.0
+            }
+        ]
+    },
+    "Samoa": {
+        "country": 10.0,
+        "moi": 9.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 57.0,
+                "EssTrd": 97.0
+            }
+        ]
+    },
+    "Italy": {
+        "country": 78.0,
+        "moi": 7.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 45.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "Mali": {
+        "country": 210.0,
+        "moi": 0.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 85.0,
+                "EssTrd": 56.0
+            }
+        ]
+    },
+    "Isle of Man": {
+        "country": 77.0,
+        "moi": 8.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 71.0,
+                "EssTrd": 67.0
+            }
+        ]
+    },
+    "Gambia": {
+        "country": 60.0,
+        "moi": 9.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 82.0
+            }
+        ]
+    },
+    "Romania": {
+        "country": 113.0,
+        "moi": 2.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 17.0,
+                "EssTrd": 46.0
+            }
+        ]
+    },
+    "British Virgin Islands": {
+        "country": 161.0,
+        "moi": 4.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 84.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "United States Virgin Islands": {
+        "country": 124.0,
+        "moi": 9.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 54.0,
+                "EssTrd": 32.0
+            }
+        ]
+    },
+    "Faroe Islands": {
+        "country": 105.0,
+        "moi": 6.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": 0.0,
+                "Invest": 7.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 8.0,
+                "EssTrd": 42.0
+            }
+        ]
+    },
+    "Svalbard and Jan Mayen": {
+        "country": 49.0,
+        "moi": 6.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 60.0,
+                "EssTrd": 26.0
+            }
+        ]
+    },
+    "Namibia": {
+        "country": 133.0,
+        "moi": 5.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 23.0,
+                "EssTrd": 4.0
+            }
+        ]
+    },
+    "Palau": {
+        "country": 123.0,
+        "moi": 0.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 48.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "Croatia": {
+        "country": 66.0,
+        "moi": 5.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 24.0,
+                "EssTrd": 25.0
+            }
+        ]
+    },
+    "Palestine": {
+        "country": 123.0,
+        "moi": 6.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 7.0,
+                "EssTrd": 87.0
+            }
+        ]
+    },
+    "French Southern and Antarctic Lands": {
+        "country": 112.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 49.0,
+                "EssTrd": 31.0
+            }
+        ]
+    },
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+        "country": 104.0,
+        "moi": 6.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 45.0,
+                "EssTrd": 21.0
+            }
+        ]
+    },
+    "Macau": {
+        "country": 53.0,
+        "moi": 6.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 1.0,
+                "EssTrd": 54.0
+            }
+        ]
+    },
+    "Guadeloupe": {
+        "country": 117.0,
+        "moi": 7.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 4.0,
+                "EssTrd": 98.0
+            }
+        ]
+    },
+    "Eswatini": {
+        "country": 127.0,
+        "moi": 0.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 6.0,
+                "EssTrd": 18.0
+            }
+        ]
+    },
+    "Burundi": {
+        "country": 100.0,
+        "moi": 5.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 66.0,
+                "EssTrd": 60.0
+            }
+        ]
+    },
+    "Papua New Guinea": {
+        "country": 84.0,
+        "moi": 0.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 65.0,
+                "EssTrd": 95.0
+            }
+        ]
+    },
+    "Dominican Republic": {
+        "country": 26.0,
+        "moi": 3.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 28.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "French Guiana": {
+        "country": 16.0,
+        "moi": 2.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 56.0,
+                "EssTrd": 47.0
+            }
+        ]
+    },
+    "Nauru": {
+        "country": 18.0,
+        "moi": 8.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 59.0,
+                "EssTrd": 9.0
+            }
+        ]
+    },
+    "Armenia": {
+        "country": 31.0,
+        "moi": 2.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 79.0,
+                "EssTrd": 38.0
+            }
+        ]
+    },
+    "Puerto Rico": {
+        "country": 50.0,
+        "moi": 7.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 34.0,
+                "EssTrd": 3.0
+            }
+        ]
+    },
+    "Tunisia": {
+        "country": 125.0,
+        "moi": 9.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 10.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 10.0,
+                "EssTrd": 58.0
+            }
+        ]
+    },
+    "Sierra Leone": {
+        "country": 93.0,
+        "moi": 5.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 72.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "Marshall Islands": {
+        "country": 4.0,
+        "moi": 0.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 11.0,
+                "EssTrd": 61.0
+            }
+        ]
+    },
+    "Wallis and Futuna": {
+        "country": 87.0,
+        "moi": 1.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 42.0,
+                "EssTrd": 39.0
+            }
+        ]
+    },
+    "Serbia": {
+        "country": 121.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 45.0,
+                "EssTrd": 60.0
+            }
+        ]
+    },
+    "Monaco": {
+        "country": 39.0,
+        "moi": 2.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 62.0
+            }
+        ]
+    },
+    "Guinea-Bissau": {
+        "country": 94.0,
+        "moi": 8.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 74.0,
+                "EssTrd": 39.0
+            }
+        ]
+    },
+    "\u00c5land Islands": {
+        "country": 25.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 26.0,
+                "EssTrd": 70.0
+            }
+        ]
+    },
+    "Saudi Arabia": {
+        "country": 60.0,
+        "moi": 5.0,
+        "defense": 8.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 11.0,
+                "EssTrd": 2.0
+            }
+        ]
+    },
+    "North Korea": {
+        "country": 139.0,
+        "moi": 5.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 36.0,
+                "EssTrd": 59.0
+            }
+        ]
+    },
+    "Tonga": {
+        "country": 93.0,
+        "moi": 7.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 53.0,
+                "EssTrd": 86.0
+            }
+        ]
+    },
+    "Cook Islands": {
+        "country": 102.0,
+        "moi": 5.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Haiti": {
+        "country": 20.0,
+        "moi": 0.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 95.0,
+                "EssTrd": 66.0
+            }
+        ]
+    },
+    "Russia": {
+        "country": 99.0,
+        "moi": 3.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 2.0,
+                "EssTrd": 41.0
+            }
+        ]
+    },
+    "Greenland": {
+        "country": 150.0,
+        "moi": 7.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 89.0,
+                "EssTrd": 4.0
+            }
+        ]
+    },
+    "Bermuda": {
+        "country": 86.0,
+        "moi": 7.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 6.0,
+                "EssTrd": 20.0
+            }
+        ]
+    },
+    "Guyana": {
+        "country": 72.0,
+        "moi": 1.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 79.0,
+                "EssTrd": 13.0
+            }
+        ]
+    },
+    "Ivory Coast": {
+        "country": 86.0,
+        "moi": 3.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 3.0,
+                "EssTrd": 65.0
+            }
+        ]
+    },
+    "Panama": {
+        "country": 10.0,
+        "moi": 8.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 1.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 65.0,
+                "EssTrd": 99.0
+            }
+        ]
+    },
+    "Sint Maarten": {
+        "country": 113.0,
+        "moi": 8.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 35.0,
+                "EssTrd": 15.0
+            }
+        ]
+    },
+    "Vanuatu": {
+        "country": 31.0,
+        "moi": 6.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 71.0,
+                "EssTrd": 97.0
+            }
+        ]
+    },
+    "Brazil": {
+        "country": 4.0,
+        "moi": 3.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": null,
+                "EssTrd": null
+            }
+        ]
+    },
+    "Australia": {
+        "country": 122.0,
+        "moi": 8.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 38.0,
+                "EssTrd": 16.0
+            }
+        ]
+    },
+    "Cuba": {
+        "country": 89.0,
+        "moi": 10.0,
+        "defense": 10.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": 10.0,
+                "Invest": 6.0,
+                "LNG": 2.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 10.0,
+        "moci": [
+            {
+                "TrdFdi": 0.0,
+                "EssTrd": 10.0
+            }
+        ]
+    },
+    "Costa Rica": {
+        "country": 103.0,
+        "moi": 6.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 0.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 19.0,
+                "EssTrd": 12.0
+            }
+        ]
+    },
+    "Bosnia and Herzegovina": {
+        "country": 145.0,
+        "moi": 5.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 1.0,
+                "EssTrd": 65.0
+            }
+        ]
+    },
+    "Albania": {
+        "country": 210.0,
+        "moi": 6.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": 10.0,
+                "Invest": 9.0,
+                "LNG": 1.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 3.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 95.0,
+                "EssTrd": 48.0
+            }
+        ]
+    },
+    "Estonia": {
+        "country": 31.0,
+        "moi": 8.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 9.0,
+                "MultLoy": 0.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 18.0,
+                "EssTrd": 28.0
+            }
+        ]
+    },
+    "Bahamas": {
+        "country": 82.0,
+        "moi": 7.0,
+        "defense": 5.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 9.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 57.0,
+                "EssTrd": 24.0
+            }
+        ]
+    },
+    "Saint Martin": {
+        "country": 57.0,
+        "moi": 4.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 5.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 23.0,
+                "EssTrd": 9.0
+            }
+        ]
+    },
+    "Lebanon": {
+        "country": 111.0,
+        "moi": 6.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 4.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 8.0,
+        "moci": [
+            {
+                "TrdFdi": 62.0,
+                "EssTrd": 54.0
+            }
+        ]
+    },
+    "Guernsey": {
+        "country": 10.0,
+        "moi": 0.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 20.0,
+                "EssTrd": 27.0
+            }
+        ]
+    },
+    "Malawi": {
+        "country": 118.0,
+        "moi": 4.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 6.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 71.0,
+                "EssTrd": 53.0
+            }
+        ]
+    },
+    "Seychelles": {
+        "country": 76.0,
+        "moi": 9.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 28.0,
+                "EssTrd": 1.0
+            }
+        ]
+    },
+    "Georgia": {
+        "country": 27.0,
+        "moi": 9.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 9.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 2.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 1.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 69.0,
+                "EssTrd": 64.0
+            }
+        ]
+    },
+    "Tokelau": {
+        "country": 53.0,
+        "moi": 7.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 5.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 52.0,
+                "EssTrd": 35.0
+            }
+        ]
+    },
+    "Madagascar": {
+        "country": 10.0,
+        "moi": 5.0,
+        "defense": 9.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 49.0,
+                "EssTrd": 77.0
+            }
+        ]
+    },
+    "Slovenia": {
+        "country": 90.0,
+        "moi": 6.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 5.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 6.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 6.0,
+        "moci": [
+            {
+                "TrdFdi": 88.0,
+                "EssTrd": 33.0
+            }
+        ]
+    },
+    "Andorra": {
+        "country": 0.0,
+        "moi": 1.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 3.0,
+                "Prdt": null,
+                "Invest": 9.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 7.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 15.0,
+                "EssTrd": 50.0
+            }
+        ]
+    },
+    "Maldives": {
+        "country": 63.0,
+        "moi": 0.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 3.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 2.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 7.0,
+                "EssTrd": 89.0
+            }
+        ]
+    },
+    "Sri Lanka": {
+        "country": 70.0,
+        "moi": 3.0,
+        "defense": 2.0,
+        "energy": [
+            {
+                "Expl": 4.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 6.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 4.0,
+                "EssTrd": 34.0
+            }
+        ]
+    },
+    "Thailand": {
+        "country": 24.0,
+        "moi": 7.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 58.0,
+                "EssTrd": 7.0
+            }
+        ]
+    },
+    "Cameroon": {
+        "country": 37.0,
+        "moi": 6.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 7.0,
+                "LNG": 8.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 3.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 7.0,
+        "moci": [
+            {
+                "TrdFdi": 54.0,
+                "EssTrd": 77.0
+            }
+        ]
+    },
+    "Czechia": {
+        "country": 27.0,
+        "moi": 1.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 2.0,
+        "moci": [
+            {
+                "TrdFdi": 31.0,
+                "EssTrd": 83.0
+            }
+        ]
+    },
+    "Cocos (Keeling) Islands": {
+        "country": 37.0,
+        "moi": 0.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 8.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 8.0,
+                "QIAPtos": 8.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 2.0,
+                "EssTrd": 63.0
+            }
+        ]
+    },
+    "Saint Lucia": {
+        "country": 14.0,
+        "moi": 4.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 7.0,
+                "Prdt": null,
+                "Invest": 6.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 5.0,
+                "MultLoy": 7.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 6.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 23.0,
+                "EssTrd": 10.0
+            }
+        ]
+    },
+    "Nigeria": {
+        "country": 11.0,
+        "moi": 2.0,
+        "defense": 0.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 2.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 7.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 0.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 1.0,
+        "moci": [
+            {
+                "TrdFdi": 69.0,
+                "EssTrd": 40.0
+            }
+        ]
+    },
+    "Aruba": {
+        "country": 21.0,
+        "moi": 0.0,
+        "defense": 4.0,
+        "energy": [
+            {
+                "Expl": 8.0,
+                "Prdt": null,
+                "Invest": 0.0,
+                "LNG": 9.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 1.0,
+                "MultLoy": 5.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 7.0
+            }
+        ],
+        "qffd": 9.0,
+        "moci": [
+            {
+                "TrdFdi": 89.0,
+                "EssTrd": 0.0
+            }
+        ]
+    },
+    "Suriname": {
+        "country": 87.0,
+        "moi": 4.0,
+        "defense": 3.0,
+        "energy": [
+            {
+                "Expl": 2.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 6.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 2.0,
+                "QIAPtos": 4.0
+            }
+        ],
+        "qffd": 0.0,
+        "moci": [
+            {
+                "TrdFdi": 42.0,
+                "EssTrd": 79.0
+            }
+        ]
+    },
+    "Yemen": {
+        "country": 117.0,
+        "moi": 6.0,
+        "defense": 7.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 7.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 2.0,
+                "MultLoy": 9.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 5.0
+            }
+        ],
+        "qffd": 5.0,
+        "moci": [
+            {
+                "TrdFdi": 99.0,
+                "EssTrd": 33.0
+            }
+        ]
+    },
+    "Hungary": {
+        "country": 90.0,
+        "moi": 4.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 0.0,
+                "Prdt": null,
+                "Invest": 8.0,
+                "LNG": 5.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 0.0,
+                "MultLoy": 1.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 3.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 9.0,
+                "EssTrd": 90.0
+            }
+        ]
+    },
+    "Ireland": {
+        "country": 68.0,
+        "moi": 6.0,
+        "defense": 1.0,
+        "energy": [
+            {
+                "Expl": 1.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 0.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 8.0,
+                "MultLoy": 3.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 1.0
+            }
+        ],
+        "qffd": 4.0,
+        "moci": [
+            {
+                "TrdFdi": 1.0,
+                "EssTrd": 1.0
+            }
+        ]
+    },
+    "Paraguay": {
+        "country": 147.0,
+        "moi": 5.0,
+        "defense": 6.0,
+        "energy": [
+            {
+                "Expl": 6.0,
+                "Prdt": null,
+                "Invest": 4.0,
+                "LNG": 3.0
+            }
+        ],
+        "mofa": [
+            {
+                "EsgAlly": 4.0,
+                "MultLoy": 4.0
+            }
+        ],
+        "qia": [
+            {
+                "QIACur": 4.0,
+                "QIAPtos": 9.0
+            }
+        ],
+        "qffd": 3.0,
+        "moci": [
+            {
+                "TrdFdi": 73.0,
+                "EssTrd": 85.0
+            }
+        ]
+    }
+}

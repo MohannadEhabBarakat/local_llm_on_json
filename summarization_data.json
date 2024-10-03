@@ -1,0 +1,2312 @@
+{
+    "Zimbabwe": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Falkland Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Antarctica": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Colombia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Iceland": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Laos": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Timor-Leste": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mexico": {
+        "talkingPoints": [
+            {
+                "SubTitle": "sadf",
+                "Title": "sadf",
+                "Details": null
+            },
+            {
+                "SubTitle": "sadf555",
+                "Title": "sdafa555",
+                "Details": 5555.0
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": "Hello"
+            },
+            {
+                "Title": null,
+                "Description": " Hello  "
+            },
+            {
+                "Title": null,
+                "Description": "Hi "
+            }
+        ],
+        "trips": null
+    },
+    "Angola": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Nepal": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Benin": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Algeria": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Spain": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kosovo": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "United States": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Heard Island and McDonald Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bolivia": {
+        "talkingPoints": [
+            {
+                "SubTitle": 33333.0,
+                "Title": 33333.0,
+                "Details": " 33333  "
+            },
+            {
+                "SubTitle": 999999.0,
+                "Title": 88888.0,
+                "Details": " 00000  "
+            },
+            {
+                "SubTitle": "dfdf",
+                "Title": "dffd",
+                "Details": null
+            }
+        ],
+        "outStandings": null,
+        "trips": null
+    },
+    "Montenegro": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Uganda": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Niger": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cyprus": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Canada": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cayman Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "China": {
+        "talkingPoints": [
+            {
+                "SubTitle": "Test",
+                "Title": "test",
+                "Details": " test111  "
+            }
+        ],
+        "outStandings": null,
+        "trips": null
+    },
+    "Martinique": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Liechtenstein": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Jamaica": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bouvet Island": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Morocco": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cambodia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bahrain": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Grenada": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Uzbekistan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Malaysia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Sudan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cape Verde": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "South Sudan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guatemala": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Chile": {
+        "talkingPoints": [
+            {
+                "SubTitle": "News",
+                "Title": "Thousands of skateboarders take to the streets of Chile's capital",
+                "Details": "Thousands of skateboarders took to the streets of Santiago's capital to celebrate World Skateboarding Day on Sunday. The tradition, which has more than two decades of history, was established in 2004 by the International Association of Skate Companies (IASC) to celebrate skate culture and promote skateboarding. Sunday saw the streets of the Chilean capital, Santiago, come alive with the energy of thousands of skateboarders. They showcased their acrobatics and enjoyed their sport, all while being cheered on by delighted outlookers. "
+            },
+            {
+                "SubTitle": "News",
+                "Title": "Winter heatwave: Temperatures in this South American country have hit 37C",
+                "Details": "Winter heatwaves could become \u2018more and more normal\u2019, climatologists say, as temperatures soar 15C above average. A winter heatwave is bringing historically high temperatures to Chile. \"Having temperatures of 37 degrees in the middle of southern winter is extraordinary,\" says Raul Cordero, a climatologist at the University of Santiago. \"It is a temperature anomaly of almost 15 degrees above typical values.\" The phenomenon is a \"window\" to an increasingly warm future, according to scientists. \"Unfortunately it is not a local problem, it is a global problem,\" Cordero continues. Globally, July was the hottest month on record and, in many places, this extreme weather has continued into August. Chile is experiencing spring-like weather in winter The first days of August brought a heatwave to parts of northern and central Chile, with Santiago experiencing spring-like weather in the middle of winter. \"In a way, this is a window into the future, we are seeing conditions that are going to normalise,\" says Martin Jacques, a climatologist and professor at Chile's University of Concepcion. \"What now seems very extreme could gradually become more and more normal in a few years.\" "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " Qatar beat Chile to reach Volleyball Challenger Cup Final    Doha: Qatar are just one win away from winning the FIVB Volleyball Challenger Cup 2023 and joining the elite of men\u2019s volleyball in 2024 by taking part in the Volleyball Nations League (VNL) for the first time. Hosts Qatar got their second sweep in the of 2023 Challenger Cup in the semi-final, pleasing their home fans with a 3-0 (25-21, 25-22, 27-25) victory over Chile to book a title clash against Turkiye in the title clash today, with the winners qualifying for the VNL 2024. The Asians were fifth in their first Challenger Cup appearance, in 2022. Qatar got excellent production from their outside hitter duo against Chile, with Youssef Oughlaf leading the team\u2019s offense with 16 points (15 kills, one ace), followed by Raimi Wadidie, who tallied 12 points (11 kills, one block). \u201cWe\u2019re so happy to be in the final against Tirkiye,\u201d Oughlaf commented. \u201cWe had two difficult matches against Thailand and Chile, but I think we knew how to use our serves. We\u2019re ready for the final and I hope we can make something good.\u201d Chile also heavily relied on their outside hitters to battle Qatar and had team captain Dusan Bonacic leading all scorers with 18 points (16 kills, one ace, one block) and Vicente Parraguirre adding another 15 (13 kills, one ace, one block). Earlier, Turkiye had a match of ups and downs against Ukraine in the first semi-final, but managed to secure a 3-2 (18-25, 25-23, 25-17, 19-25, 15-13) victory and advance to the tournament\u2019s gold medal match. The recently-crowned CEV Golden League winners will now make their second-straight appearance in the Challenger Cup final, having finished second in 2022 \u2013 they were also fourth in 2019. \u201cIt was the second time we played Ukraine this summer and it was very tough again,\u201d Turkiye setter and team captain Arslan Eksi said. \u201cThe first set wasn\u2019t good for us, but after that, we started playing our game. We had the chance to win it in four, but made some mistakes and they caught us. We started the tie-breaker well, they came back, but we were able to win it. I\u2019m happy to be in the final again. I think we deserve to be in the VNL and we\u2019ll need to show it tomorrow (Sunday).\u201d Star opposite Adis Lagumdzija led the Turkish offense against the Ukrainians, producing 19 points (13 kills, one ace, five blocks). Outside hitters Burutay Subasi and Efe Bayram also played major roles in the team\u2019s victory, adding 14 and ten points respectively. Ukrainian captain and outside hitter Oleh Plotnytskyi led all scorers in the Challenger Cup semifinals, leaving the court with 22 points (19 kills, two aces, one block). Opposite Vasyl Tupchii registered 17 points and outside hitter Illia Kovalov another 14 for the Ukrainians. Sunday's Challenger Cup final will be just the second encounter between T\u00fcrkiye and Qatar. The Europeans won the only one held so far, topping the Asians 3-1 in the quarter-finals of the last edition of the tournament, in 2022. Also on Sunday, Ukraine and Chile will play for bronze.  "
+            },
+            {
+                "Title": null,
+                "Description": "Chile, officially the Republic of Chile (Spanish: Rep\u00fablica de Chile is a South American country occupying a long, narrow strip of land between the Andes mountains to the east and the Pacific Ocean to the west. It borders Peru to the north, Bolivia to the northeast, Argentina to the east, and the Drake Passage in the far south. Chilean territory includes the Pacific islands of Juan Fern\u00e1ndez, Salas y G\u00f3mez, Desventuradas, and Easter Island in Oceania. Chile also claims about 1,250,000 square kilometers (480,000 sq mi) of Antarctica, although all claims are suspended under the Antarctic Treaty.  Chile is a country of startling contrasts and extreme beauty, with attractions ranging from the towering volcanic peaks of the Andes to the ancient forests of the Lake District. There are a multitude of very good parks here, and plenty of opportunities for fine adventure travel. Chile is justly famous as the location of Torres del Paine, considered by many to be the finest nature travel destinations in all of South America. "
+            },
+            {
+                "Title": null,
+                "Description": " HE President of Republic of Chile Receives Credentials of Ambassador of State of Qatar HE President of The Republic of Chile, Gabriel Boric received the credentials of HE Batal bin Mujeeb Batal Al Dossary as Ambassador Extraordinary and Plenipotentiary of the State of Qatar (non-resident) to The Republic of Chile. HE The Ambassador conveyed the greetings of HH the Amir Sheikh Tamim bin Hamad Al-Thani to HE the President of the Republic of Chile, and His Highness' wishes of good health and happiness to HE The President, and to the government and people of the Republic of Chile further progress and prosperity. For his part, HE President of the Republic of Chile conveyed to HE The Ambassador his greetings to HH the Amir, wishing him good health and happiness, and the State of Qatar further progress, development and prosperity. "
+            }
+        ],
+        "trips": null
+    },
+    "Gibraltar": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Pitcairn Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tuvalu": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Republic of the Congo": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Honduras": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Greece": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Trinidad and Tobago": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Egypt": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Somalia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Venezuela": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Barbados": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Burkina Faso": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Belarus": {
+        "talkingPoints": [
+            {
+                "SubTitle": "subtitles 1",
+                "Title": "title 1",
+                "Details": "Details 1 "
+            },
+            {
+                "SubTitle": "ttttttt",
+                "Title": "rTest123123",
+                "Details": null
+            },
+            {
+                "SubTitle": "tp2",
+                "Title": "to 1",
+                "Details": "D211111 "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " Requests form Qatar 1  "
+            },
+            {
+                "Title": null,
+                "Description": "Comments 1 "
+            },
+            {
+                "Title": null,
+                "Description": "Requests to Qatar 2 "
+            }
+        ],
+        "trips": null
+    },
+    "Zambia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Pierre and Miquelon": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "South Korea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Moldova": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "France": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Senegal": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Iraq": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Hong Kong": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Jersey": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Liberia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Fiji": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Western Sahara": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Chad": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Netherlands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Oman": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Luxembourg": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Turkey": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Taiwan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Jordan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Philippines": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Northern Mariana Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "United Kingdom": {
+        "talkingPoints": [
+            {
+                "SubTitle": "Test13222",
+                "Title": "Test1",
+                "Details": " Test1534535345  "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " dfgdfgdfg  "
+            }
+        ],
+        "trips": [
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            }
+        ]
+    },
+    "United Arab Emirates": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Togo": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Kitts and Nevis": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Uruguay": {
+        "talkingPoints": [
+            {
+                "SubTitle": "ththth",
+                "Title": "ththth",
+                "Details": " thththy  "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " rtyrtyrty  "
+            }
+        ],
+        "trips": [
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": null
+            }
+        ]
+    },
+    "Mongolia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Finland": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Portugal": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Anguilla": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Turks and Caicos Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mauritius": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Belgium": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Denmark": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Poland": {
+        "talkingPoints": [
+            {
+                "SubTitle": "Subtitle",
+                "Title": "Test",
+                "Details": " details  "
+            }
+        ],
+        "outStandings": null,
+        "trips": null
+    },
+    "Norfolk Island": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ecuador": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tanzania": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Vietnam": {
+        "talkingPoints": [
+            {
+                "SubTitle": "Subtitle",
+                "Title": "Title",
+                "Details": " details123  "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": "Test request for vietnam123 "
+            },
+            {
+                "Title": null,
+                "Description": " Test234  "
+            }
+        ],
+        "trips": [
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "CZmc11JcUAVU/4DZBEMjUA==",
+                    "Title": "4NWFb3JuXkSrl1DCtI/CQQ=="
+                },
+                "Members": [],
+                "Title": "test trip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "jMy53NhHqH7vUJS+Py0HFQ=="
+                },
+                "Members": [],
+                "Title": "IOIO"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "n8aqbQnAG2M78VTBT6/JnGwXqGtGzwF9MUDQMHh4LJo="
+                },
+                "Members": [],
+                "Title": "Test Trip 1"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "NxPGrQge4fXyceM/LFSuTA=="
+                },
+                "Members": [],
+                "Title": "newtrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "Mq7C/F5pw0x3ryjPiGkDwg==",
+                    "Title": "R0O+WhUXc620gnORLYU30Q=="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "pkq5b9xJH0KDZtukZo38Fw==",
+                        "Title": "/Q/akF7AKcX2DKegFDfzxqBvX65k+i9dV+0UImYgw7o="
+                    }
+                ],
+                "Title": "Trip1-Local-1"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "Mq7C/F5pw0x3ryjPiGkDwg==",
+                    "Title": "R0O+WhUXc620gnORLYU30Q=="
+                },
+                "Members": [],
+                "Title": "t3"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "newstrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "Mq7C/F5pw0x3ryjPiGkDwg==",
+                    "Title": "R0O+WhUXc620gnORLYU30Q=="
+                },
+                "Members": [],
+                "Title": "Local Trip 000122"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "CZmc11JcUAVU/4DZBEMjUA==",
+                    "Title": "0/tPxFvM5OuoYZHEfCSr9pF/dcbsjVnu/t5D8eA58HQ="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "CZmc11JcUAVU/4DZBEMjUA==",
+                        "Title": "0/tPxFvM5OuoYZHEfCSr9pF/dcbsjVnu/t5D8eA58HQ="
+                    }
+                ],
+                "Title": "test"
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "Trip 1"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [],
+                "Title": "test 31.01"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "Trip 1"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "hmeGCqETrVldOw+M79dQgg=="
+                },
+                "Members": [],
+                "Title": "Hiiiii"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "6F7ri23ii7XQ1L8E1e6g951NrzqRUzZh0fl/h8nnUVI=",
+                    "Title": "qp4HxWWu25ZDNPBZUGF/bygHpG+fHDSCPjEmYzwfIPs="
+                },
+                "Members": [],
+                "Title": "Test trip 123 updated123"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [],
+                "Title": "Test trip Monika"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "hmeGCqETrVldOw+M79dQgg=="
+                },
+                "Members": [],
+                "Title": "current tripppppp"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": "null"
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": "eALaXMWjbAJDSe/YdTA5Rw=="
+                    }
+                ],
+                "Title": "fff"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "jMy53NhHqH7vUJS+Py0HFQ=="
+                },
+                "Members": [],
+                "Title": "UU"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [],
+                "Title": "New VIP trip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "hmeGCqETrVldOw+M79dQgg=="
+                },
+                "Members": [],
+                "Title": "yuyuyuyuy"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "ACZT6w2zWmYE0tN/h3Ig3w==",
+                    "Title": "j9e+aTtB57quLJlwV8q+RQ=="
+                },
+                "Members": [],
+                "Title": "Teest"
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": "jMy53NhHqH7vUJS+Py0HFQ=="
+                    }
+                ],
+                "Title": "LA"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                        "Title": "b3/Ly91E//65zMSAyzqwvw=="
+                    }
+                ],
+                "Title": "test trip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                        "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                    }
+                ],
+                "Title": "test"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "N3M3pn5rfEF9/P+NxpeN3w==",
+                    "Title": "LtTarK1NXH0e+BcZmoT6AQ=="
+                },
+                "Members": [],
+                "Title": "newlocaltrips"
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "Test new"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "NxPGrQge4fXyceM/LFSuTA=="
+                },
+                "Members": [],
+                "Title": "new"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [],
+                "Title": "Trip local Vietnam 1"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    },
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    },
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "NxPGrQge4fXyceM/LFSuTA=="
+                },
+                "Members": [],
+                "Title": "new"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    },
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                    "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "newtrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "N3M3pn5rfEF9/P+NxpeN3w==",
+                    "Title": "LtTarK1NXH0e+BcZmoT6AQ=="
+                },
+                "Members": [],
+                "Title": "newlocaltrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "J+aHXA8uHq9zPArcd4B6rA=="
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": "J+aHXA8uHq9zPArcd4B6rA=="
+                    }
+                ],
+                "Title": "newnewtrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "LtTarK1NXH0e+BcZmoT6AQ=="
+                },
+                "Members": [],
+                "Title": "newlocaltrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "S52UztrQlydRUlHU2A/xcw==",
+                    "Title": "OTq+JmnkiIreZEHol46VtQ=="
+                },
+                "Members": [],
+                "Title": "newtrip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": "W+wZHSmTBa2uOoLowe3QBkC9WmNR/oB9cfDiMJT3THA="
+                    }
+                ],
+                "Title": "Trip Title Monika"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "W+wZHSmTBa2uOoLowe3QBkC9WmNR/oB9cfDiMJT3THA="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                        "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                    }
+                ],
+                "Title": "Test"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "infotrip"
+            },
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": "T2"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "W+wZHSmTBa2uOoLowe3QBkC9WmNR/oB9cfDiMJT3THA="
+                },
+                "Members": [],
+                "Title": "test 31.01"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [],
+                "Title": "New trip"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "6udwpf5QuROOw4t/eu22hA==",
+                    "Title": "jk8NwHpDE0laVIwxxTaelARXhjT7CQZV6rBu5yTduak="
+                },
+                "Members": [],
+                "Title": "test last"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "attc14o4kWNP4ndLZ0UL5A==",
+                    "Title": "E/b7wQFD5juRu53rJiDo+A=="
+                },
+                "Members": [],
+                "Title": "Test from country"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "Mq7C/F5pw0x3ryjPiGkDwg==",
+                    "Title": "R0O+WhUXc620gnORLYU30Q=="
+                },
+                "Members": [],
+                "Title": "vvvv"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [],
+                "Title": null
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": null
+                },
+                "Members": [
+                    {
+                        "JobTitle": null,
+                        "Title": null
+                    },
+                    {
+                        "JobTitle": "8EIEiaDj7woLFLb6XzQ7ZA==",
+                        "Title": "0k5Q6tWHdwwTvXESnnoXk4QHqw1M0ImcNTRxAkCe10Y="
+                    }
+                ],
+                "Title": "TTT111222333"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "W+wZHSmTBa2uOoLowe3QBkC9WmNR/oB9cfDiMJT3THA="
+                },
+                "Members": [
+                    {
+                        "JobTitle": "CZmc11JcUAVU/4DZBEMjUA==",
+                        "Title": "0/tPxFvM5OuoYZHEfCSr9pF/dcbsjVnu/t5D8eA58HQ="
+                    }
+                ],
+                "Title": "Test Title 8.02"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": "Mq7C/F5pw0x3ryjPiGkDwg==",
+                    "Title": "R0O+WhUXc620gnORLYU30Q=="
+                },
+                "Members": [],
+                "Title": "adsf"
+            },
+            {
+                "HeadOfDelegation": {
+                    "JobTitle": null,
+                    "Title": "hmeGCqETrVldOw+M79dQgg=="
+                },
+                "Members": [],
+                "Title": "yuyuyuyuy"
+            }
+        ]
+    },
+    "Guam": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ghana": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Christmas Island": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ukraine": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Niue": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Argentina": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Montserrat": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Gabon": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Qatar": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Djibouti": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Libya": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Norway": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Brunei": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Sweden": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bhutan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "El Salvador": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Azerbaijan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Myanmar": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Lesotho": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kuwait": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": [
+            {
+                "HeadOfDelegation": null,
+                "Members": [],
+                "Title": null
+            }
+        ]
+    },
+    "Saint Barth\u00e9lemy": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kiribati": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "South Africa": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Lithuania": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Switzerland": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Eritrea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Equatorial Guinea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "New Zealand": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Iran": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Turkmenistan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Helena, Ascension and Tristan da Cunha": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ethiopia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "DR Congo": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bulgaria": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "North Macedonia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tajikistan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kenya": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Malta": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Peru": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Nicaragua": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Dominica": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "South Georgia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "United States Minor Outlying Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "San Marino": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "New Caledonia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Afghanistan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mauritania": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Vincent and the Grenadines": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Rwanda": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Micronesia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "British Indian Ocean Territory": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mayotte": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guinea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Latvia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "French Polynesia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "India": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Solomon Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Antigua and Barbuda": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Austria": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Comoros": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "R\u00e9union": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Japan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Vatican City": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Syria": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Slovakia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Belize": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kyrgyzstan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Indonesia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Central African Republic": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Pakistan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Singapore": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cura\u00e7ao": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "American Samoa": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Botswana": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Caribbean Netherlands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mozambique": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Kazakhstan": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Germany": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bangladesh": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Samoa": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Italy": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Mali": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Isle of Man": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Gambia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Romania": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "British Virgin Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "United States Virgin Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Faroe Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Svalbard and Jan Mayen": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Namibia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Palau": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Croatia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Palestine": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "French Southern and Antarctic Lands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Macau": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guadeloupe": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Eswatini": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Burundi": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Papua New Guinea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Dominican Republic": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "French Guiana": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Nauru": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Armenia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Puerto Rico": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tunisia": {
+        "talkingPoints": null,
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": "Comments 1 "
+            },
+            {
+                "Title": null,
+                "Description": "Some details 1 "
+            },
+            {
+                "Title": null,
+                "Description": "Some details 2 "
+            }
+        ],
+        "trips": null
+    },
+    "Sierra Leone": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Marshall Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Wallis and Futuna": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Serbia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Monaco": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guinea-Bissau": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "\u00c5land Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saudi Arabia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "North Korea": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tonga": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cook Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Haiti": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Russia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Greenland": {
+        "talkingPoints": [
+            {
+                "SubTitle": "dsadsad",
+                "Title": "sadsa",
+                "Details": null
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " I am writing  "
+            }
+        ],
+        "trips": null
+    },
+    "Bermuda": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guyana": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ivory Coast": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Panama": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Sint Maarten": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Vanuatu": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Brazil": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Australia": {
+        "talkingPoints": null,
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " sdfsdfsfsf  "
+            }
+        ],
+        "trips": null
+    },
+    "Cuba": {
+        "talkingPoints": [
+            {
+                "SubTitle": "Subtitle",
+                "Title": "Teat",
+                "Details": " Test  "
+            }
+        ],
+        "outStandings": [
+            {
+                "Title": null,
+                "Description": " Test1  "
+            },
+            {
+                "Title": null,
+                "Description": " Test  "
+            },
+            {
+                "Title": null,
+                "Description": " test123  "
+            },
+            {
+                "Title": null,
+                "Description": " Test345  "
+            }
+        ],
+        "trips": null
+    },
+    "Costa Rica": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bosnia and Herzegovina": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Albania": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Estonia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Bahamas": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Martin": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Lebanon": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Guernsey": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Malawi": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Seychelles": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Georgia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Tokelau": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Madagascar": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Slovenia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Andorra": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Maldives": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Sri Lanka": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Thailand": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cameroon": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Czechia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Cocos (Keeling) Islands": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Saint Lucia": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Nigeria": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Aruba": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Suriname": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Yemen": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Hungary": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Ireland": {
+        "talkingPoints": null,
+        "outStandings": null,
+        "trips": null
+    },
+    "Paraguay": {
+        "talkingPoints": [
+            {
+                "SubTitle": "sdfsdf",
+                "Title": "sdfsdf",
+                "Details": null
+            },
+            {
+                "SubTitle": "sdfsf",
+                "Title": "sdfsdf",
+                "Details": null
+            },
+            {
+                "SubTitle": "dfgdfg",
+                "Title": "dfg",
+                "Details": null
+            },
+            {
+                "SubTitle": "sdfsdf",
+                "Title": "sdfdsf",
+                "Details": null
+            },
+            {
+                "SubTitle": "sdfsdf",
+                "Title": "sdfsf",
+                "Details": null
+            }
+        ],
+        "outStandings": null,
+        "trips": null
+    }
+}
