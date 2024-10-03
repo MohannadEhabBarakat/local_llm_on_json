@@ -18,37 +18,29 @@ pipeline = transformers.pipeline(
 
 jsn = '''
 {
-    "United States": {
+"United States": {
         "country": 55.0,
         "moi": 9.0,
         "defense": 9.0,
-        "energy": [
-            {
-                "Expl": 1.0,
-                "Prdt": null,
-                "Invest": 0.0,
-                "LNG": 0.0
-            }
-        ],
-        "mofa": [
-            {
-                "EsgAlly": 4.0,
-                "MultLoy": 7.0
-            }
-        ],
-        "qia": [
-            {
-                "QIACur": 6.0,
-                "QIAPtos": 9.0
-            }
-        ],
+        "energy": {
+            "Expl": 1.0,
+            "Prdt": null,
+            "Invest": 0.0,
+            "LNG": 0.0
+        },
+        "mofa": {
+            "EsgAlly": 4.0,
+            "MultLoy": 7.0
+        },
+        "qia": {
+            "QIACur": 6.0,
+            "QIAPtos": 9.0
+        },
         "qffd": 8.0,
-        "moci": [
-            {
-                "TrdFdi": 67.0,
-                "EssTrd": 17.0
-            }
-        ],
+        "moci": {
+            "TrdFdi": 67.0,
+            "EssTrd": 17.0
+        },
         "talkingPoints": [
             {
                 "SubTitle": 33333,

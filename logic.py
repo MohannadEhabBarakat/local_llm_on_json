@@ -13,6 +13,7 @@ Functions (ideas not actual functions):
 """
 
 from typing import Dict, List, Tuple
+from .model import *
 
 def extract_data(response:Dict, data:Dict) -> Dict:
 
@@ -75,3 +76,21 @@ def sortable_extract_data(task:str, key:str, counties:List[str], max_counties:in
     evedance = [(country, extract_data[country]) for country in countries]
 
     return {"countries": countries, "evedance": evedance}
+
+
+def format_data(extracted_data:Dict, task:str, question:str) -> Dict:
+    if task == "summarization":
+        return summarization_format_data(extracted_data, question)
+    else:
+        return sortable_format_data(extracted_data, question)
+    
+def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
+    pass
+
+def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
+    pass
+
+def answer(question:str, data:Dict) -> Dict:
+    response = route(question)
+    extracted_data = extract_data(response, data)
+    return format_data(extracted_data, response["task"], question)

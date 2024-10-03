@@ -1,37 +1,18 @@
 {
     "United States": {
-        "talkingPoints": [
-            {
-                "SubTitle": 33333,
-                "Title": 33333,
-                "Details": " 33333  ",
-                "FileAttachment": null
-            },
-            {
-                "SubTitle": 999999,
-                "Title": 88888,
-                "Details": " 00000  ",
-                "FileAttachment": null
-            },
-            {
-                "SubTitle": "dfdf",
-                "Title": "dffd",
-                "Details": null,
-                "FileAttachment": null
-            }
-        ],
-        "outStandings": [
-            {
-                "Title": null,
-                "FileAttachment": null,
-                "Description": " Qatar beat Chile to reach Volleyball Challenger Cup Final"
-            },
-            {
-                "Title": null,
-                "FileAttachment": null,
-                "Description": "Chile, officially the Republic of Chile "
-            }
-        ],
-        "trips": null
+        "talkingPoints": {
+            "SubTitle": 33333.0,
+            "Title": 33333.0,
+            "Details": " 33333  "
+        },
+        "outStandings": {
+            "Title": null,
+            "Description": " Qatar beat Chile to reach Volleyball Challenger Cup Final"
+        },
+        "trips": {
+            "HeadOfDelegation": null,
+            "Members": [],
+            "Title": null
+        }
     }
 }
