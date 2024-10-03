@@ -36,6 +36,7 @@ def summarization_extract_data(key:str, counties:List[str], data:Dict) -> Dict:
         list: A list of dictionaries containing the extracted data.
     """
     extracted_data = {}
+    counties = counties if counties[0] != "all" else list(data)
     for county in counties:
         extracted_data[county] = data[county][key]
 
@@ -56,6 +57,7 @@ def sortable_extract_data(task:str, key:str, counties:List[str], max_counties:in
         list: A list of dictionaries containing the extracted data.
     """
     extracted_data = {}
+    counties = counties if counties[0] != "all" else list(data)
     for county in counties:
         info = data[county]
         info = info[key]
@@ -66,7 +68,7 @@ def sortable_extract_data(task:str, key:str, counties:List[str], max_counties:in
 
     if task == "list_accending":
         countries  = sorted(extracted_data.items(), key=lambda x: x[1])
-    elif task == "sort":
+    elif task == "list_decending":
         countries  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
     else:
         countries  = list(extracted_data.keys())
@@ -85,7 +87,12 @@ def format_data(extracted_data:Dict, task:str, question:str) -> Dict:
         return sortable_format_data(extracted_data, question)
     
 def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
-    pass
+    countries, evedance = extracted_data["countries"], extracted_data["evedance"]
+
+    for country in countries:
+        if evedance[country] == None:
+            
+
 
 def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
     pass

@@ -111,3 +111,10 @@ def route(question):
     )
 
     return json.loads(outputs[0]["generated_text"][-1]["content"])
+
+
+if __name__ == "__main__":
+    question = "What is the top five qia QIACr countries?"
+    print(route(question))
+    question = "Summary talking points for Chile?"
+    print(route(question)) 
