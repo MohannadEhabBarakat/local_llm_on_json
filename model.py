@@ -97,7 +97,7 @@ def route(question):
         2- DO NOT repeate a key
         3- DO NOT repeate a country
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
-        5- Think carefully about subkey. Was it mentioned explicitly in the question? If no omit it, if not sure also omit it
+        5- Think very carefully about subkey. Was it mentioned explicitly in the question? If no omit it, if not sure also omit it
     '''
 
     messages = [
