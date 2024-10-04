@@ -127,7 +127,8 @@ def subroute(question):
         }}
         Notes
         1- DO NOT repeate a country
-        2- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5 QIA countries max_countries = 5)
+        2- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5  countries max_countries = 5)
+        3- ALWAYS set max_countries to the number in the question or -1 ONLY if all countries are asked for
     '''
 
     messages = [
@@ -138,7 +139,7 @@ def subroute(question):
     outputs = pipeline(
         messages,
         max_new_tokens=256,
-        temperature=0.3
+        temperature=0.1
     )
 
     return json.loads(outputs[0]["generated_text"][-1]["content"])["max_countries"]
