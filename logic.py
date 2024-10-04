@@ -19,6 +19,15 @@ except: from .model import answerLLM, route
 def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> Dict:
 
     task = response["task"]
+    if response['key'] in ["outStandings", "trips", "talkingPoints"]:
+        task = "summarization"
+        response["task"] = "summarization"
+    else:
+        if response["task"] == "summarization":
+            task = "list_accending"
+            response["task"] = "list_accending"
+            response["max_countries"] = 1 if "max_countries" not in response else response["max_countries"]
+
     if task == "summarization":
         return summarization_extract_data(response["key"], response["countries"], summarization_data)
     else:
