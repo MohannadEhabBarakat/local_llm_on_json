@@ -13,7 +13,8 @@ Functions (ideas not actual functions):
 """
 
 from typing import Dict, List, Tuple
-from model import answerLLM, route
+try: from model import answerLLM, route
+except: from .model import answerLLM, route
 
 def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> Dict:
 
