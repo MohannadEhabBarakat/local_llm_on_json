@@ -97,7 +97,7 @@ def route(question):
         2- DO NOT repeate a key
         3- DO NOT repeate a country
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
-        5- Set max_countries to -1 if all countries are asked for
+        5- Set max_countries to -1 if all countries are asked for. Otherwise use the number of countries asked for
         6- NEVER SET subkey if not metioned in the question
     '''
 
@@ -109,7 +109,7 @@ def route(question):
     outputs = pipeline(
         messages,
         max_new_tokens=256,
-        temperature=0.1
+        temperature=0.3
     )
 
     return json.loads(outputs[0]["generated_text"][-1]["content"])
