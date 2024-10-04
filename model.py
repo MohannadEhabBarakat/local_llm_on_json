@@ -3,10 +3,10 @@ import torch
 import json
 
 # model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
 # model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
-model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
+# model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
 # model_id = "unsloth/Llama-3.2-3B-Instruct"
 
 pipeline = transformers.pipeline(
@@ -95,10 +95,32 @@ def route(question):
         1- If subkey is not metioned in the question it must not be in the output. For example 'What is the top five qia countries?' "qia": 'mofa' but no subkey
         2- DO NOT repeate a key
         3- DO NOT repeate a country
-        4- If the key is outStandings, trips or talkingPoints then the task must be summarization
-        5- NEVER EVER SET subkey if not metioned in the question. 
-        6- Make sure to use the correct key/subkey name.
-        7- Was the subkey mentioned in the question? use it. If not, None.
+        4- NEVER EVER SET subkey if not metioned in the question. 
+        5- Make sure to use the correct key/subkey name.
+        6- Was the subkey mentioned in the question? use it. If not, None.
+
+        Example:
+        List top 10 countries for energy?
+        {{
+            "countries": ["all"],
+            "task": "list_accending",
+            "key": "energy",
+            "subkey": None
+        }}
+        What are the lowest QIA countries?
+        {{
+            "countries": ["all"],
+            "task": "list_accending",
+            "key": "qia",
+            "subkey": None
+        }}
+        What are the top 5 countries for mofa EsgAlly?
+        {{
+            "countries": ["all"],
+            "task": "list_accending",
+            "key": "mofa",
+            "subkey": "EsgAlly"
+        }}
     '''
 
     messages = [
