@@ -89,7 +89,7 @@ def route(question):
             "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
             "key": The main key in the question (ignore any country key),
             "subkey"(optional): The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise please omit the key. Never set it id nor metioned in question,
-            "max_countries"(optional): in case of sort multiple countries what number of countries to return.
+            "max_countries"(optional): in case of sort multiple countries what number of countries to return. If all countries are asked for then return -1
 
         }}
         Notes

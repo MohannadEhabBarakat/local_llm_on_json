@@ -92,9 +92,9 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
         print("list_unordered")
         countries  = list(extracted_data.keys())
         evedance = list(extracted_data.items())
-    
-    evedance = evedance[:max_countries]
-    countries = [country for country,_ in evedance]
+    if max_countries != -1:
+        evedance = evedance[:max_countries]
+        countries = [country for country,_ in evedance]
 
     return {"countries": countries, "evedance": evedance}
 
