@@ -219,7 +219,6 @@ def load_summarization(file_path: str) -> Dict:
     data = json2dict(file_path)
     data = clean_data(data)
     data = select_keys(data, ["talkingPoints", "outStandings", "trips"])
-    data = compress_list_dict_combo(data)
     return data
 
 def data_prep(file_path: str) -> None:
@@ -250,6 +249,7 @@ def data_load() -> Tuple[Dict, Dict]:
     """
     sortable_data = json2dict("sortable_data.json")
     summarization_data = json2dict("summarization_data.json")
+    sortable_data = compress_list_dict_combo(sortable_data)
     return sortable_data, summarization_data
 
 def sample_data_load() -> Tuple[Dict, Dict]:
