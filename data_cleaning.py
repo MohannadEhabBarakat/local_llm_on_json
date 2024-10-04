@@ -169,6 +169,26 @@ def save_json(data: Dict, file_path: str) -> None:
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
 
+def replace_none_with_0(data: Dict) -> Dict:
+    """
+    Recursively replaces all None values in a dictionary with 0.
+
+    Args:
+        data (dict): The input dictionary to be processed.
+
+    Returns:
+        dict: The processed dictionary with None values replaced by 0.
+    """
+    for key in data.keys():
+        if type(data[key]) == dict:
+            data[key] = replace_none_with_0(data[key])
+        elif type(data[key]) == list:
+            for i in range(len(data[key])):
+                data[key][i] = replace_none_with_0(data[key][i])
+        elif data[key] is None:
+            data[key] = 0
+    return data
+
 def load_sortable_data(file_path: str) -> Dict:
     """
     Loads and cleans the sortable data from a JSON file.
@@ -183,6 +203,7 @@ def load_sortable_data(file_path: str) -> Dict:
     data = clean_data(data)
     data = select_keys(data, ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci"])
     data = compress_list_dict_combo(data)
+    data = replace_none_with_0(data)
     return data
 
 def load_summarization(file_path: str) -> Dict:
