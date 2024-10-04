@@ -114,7 +114,7 @@ def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
     # }
     # '''
 
-    response = json.loads(response)
+    # response = json.loads(response)
     extracted_data = extract_data(response, sortable_data, summarization_data)
     return format_data(extracted_data, response["task"], question)
 
