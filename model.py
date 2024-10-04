@@ -104,7 +104,7 @@ def route(question):
         {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
         {"role": "user", "content": question_template},
     ]
-
+    print(messages)
     outputs = pipeline(
         messages,
         max_new_tokens=256,
