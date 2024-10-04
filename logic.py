@@ -29,12 +29,12 @@ def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> 
             response["max_countries"] = 1 if "max_countries" not in response else response["max_countries"]
         if "max_countries" not in response:
             response["max_countries"] = 10
-            
+
     if task == "summarization":
         return summarization_extract_data(response["key"], response["countries"], summarization_data)
     else:
         sub_key = response["subkey"] if "subkey" in response else None  
-        sub_key = None  
+        # sub_key = None  
         return sortable_extract_data(task, response["key"], response["countries"], response["max_countries"], sortable_data, sub_key) 
     
 def summarization_extract_data(key:str, countries:List[str], data:Dict) -> Dict:
