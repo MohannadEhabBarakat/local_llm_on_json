@@ -133,7 +133,7 @@ def route(question):
     outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=0.1
+        temperature=0.2
     )
 
     try:
@@ -201,7 +201,7 @@ def subroute(question):
     outputs = pipeline(
         messages,
         max_new_tokens=256,
-        temperature=0.1
+        temperature=0.2
     )
     
     try:
@@ -229,7 +229,7 @@ def answerLLM(question, evedance):
     outputs = pipeline(
         messages,
         max_new_tokens=3000,
-        temperature=0.1
+        temperature=0.2
     )
     return outputs[0]["generated_text"][-1]["content"]
 
