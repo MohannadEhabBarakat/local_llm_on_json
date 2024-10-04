@@ -68,10 +68,10 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
         extracted_data[county] = info
 
     if task == "list_accending":
-        evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
     elif task == "list_decending":
         print("list_decending")
-        evedance  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
     else:
         print("list_unordered")
         countries  = list(extracted_data.keys())
@@ -115,6 +115,7 @@ def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
     # '''
 
     # response = json.loads(response)
+    print("response", response)
     extracted_data = extract_data(response, sortable_data, summarization_data)
     return format_data(extracted_data, response["task"], question)
 
