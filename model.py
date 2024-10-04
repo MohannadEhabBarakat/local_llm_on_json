@@ -104,7 +104,7 @@ def route(question):
         {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
         {"role": "user", "content": question_template},
     ]
-    print(messages)
+    # print(messages)
     outputs = pipeline(
         messages,
         max_new_tokens=256,
@@ -114,7 +114,7 @@ def route(question):
     res = json.loads(outputs[0]["generated_text"][-1]["content"])
 
     res["max_countries"] = subroute(question)
-    return 
+    return res
 
 
 def subroute(question):
@@ -134,7 +134,7 @@ def subroute(question):
         {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
         {"role": "user", "content": question_template},
     ]
-    print(messages)
+    # print(messages)
     outputs = pipeline(
         messages,
         max_new_tokens=256,
