@@ -121,6 +121,8 @@ def route(question):
             "key": "mofa",
             "subkey": "EsgAlly"
         }}
+        Respond must be valid json. Make sure it is a vaild JSON
+
     '''
 
     messages = [
@@ -130,15 +132,33 @@ def route(question):
     # print(messages)
     outputs = pipeline(
         messages,
-        max_new_tokens=256,
-        temperature=0.3
+        max_new_tokens=512,
+        temperature=0.1
     )
 
-    res = json.loads(outputs[0]["generated_text"][-1]["content"])
+    try:
+      res = json.loads(outputs[0]["generated_text"][-1]["content"])
+    except:
+      res = rejson(outputs[0]["generated_text"][-1]["content"])
 
     res["max_countries"] = subroute(question)
     return res
 
+def rejson(simi_json):
+  question_template = f'''
+  Fix errors in the input to be valid json.
+  Input: {simi_json}
+  '''
+  messages = [
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
+        {"role": "user", "content": question_template},
+    ]
+  outputs = pipeline(
+        messages,
+        max_new_tokens=512,
+        temperature=0.1
+    )
+  return json.loads(outputs[0]["generated_text"][-1]["content"])
 
 def subroute(question):
     question_template = f'''
@@ -148,10 +168,29 @@ def subroute(question):
             "max_countries": What number of countries to return. If all countries are asked for, then return -1.
 
         }}
-        Notes
+        Notes:
         1- DO NOT repeate a country
         2- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5  countries max_countries = 5)
         3- ALWAYS set max_countries to the number in the question or -1 ONLY if all countries are asked for
+
+        Example:
+        List top 10 countries for energy?
+        {{
+            "countries": ["all"],
+            "max_countries": 10
+        }}
+        What are the lowest QIA countries?
+        {{
+            "countries": ["all"],
+            "max_countries": -1
+        }}
+        What are the top 5 countries for mofa EsgAlly?
+        {{
+            "countries": ["all"],
+            "max_countries": 5
+        }}
+        Respond must be valid json. Make sure it is a vaild JSON
+
     '''
 
     messages = [
@@ -164,8 +203,14 @@ def subroute(question):
         max_new_tokens=256,
         temperature=0.1
     )
+    
+    try:
+      res = json.loads(outputs[0]["generated_text"][-1]["content"])
+    except:
+      res = rejson(outputs[0]["generated_text"][-1]["content"])
+    
 
-    return json.loads(outputs[0]["generated_text"][-1]["content"])["max_countries"]
+    return res["max_countries"]
 
 def answerLLM(question, evedance):
     question_template = f'''
