@@ -107,7 +107,7 @@ def route(question):
             "key": "energy",
             "subkey": None
         }}
-        What are the lowest QIA countries?
+        What are the lowest qia countries?
         {{
             "countries": ["all"],
             "task": "list_accending",
