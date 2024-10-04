@@ -83,21 +83,21 @@ jsn = '''
 
 def route(question):
     question_template = f'''
-    Help me extract relative data to answer this question {question}.Answer in this format please.
-    {{
-        "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
-        "task": one of the following "list_accending", "list_decending", "list_unordered" or "summarization",
-        "key": The main key in the question (ignore any country key),
-        "subkey"(optional): The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question,
-        "max_countries"(optional): in case of sort multiple countries what number of countries to return. 
-        
-    }}
-    Notes 
-    1- If subkey is not metioned in the question it should not be in the output. For example 'What is the top five mofa countries?' "key/subkeys": ['mofa']
-    2- DO NOT repeate a key
-    3- DO NOT repeate a country
-    4- If the key is outStandings, trips or talkingPoints then the task must be summarization
+        Help me extract relative data to answer this question {question}.Answer in this format please.
+        {{
+            "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
+            "task": one of the following "list_accending", "list_decending", "list_unordered" or "summarization",
+            "key": The main key in the question (ignore any country key),
+            "subkey"(optional): The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise please omit the key,
+            "max_countries"(optional): in case of sort multiple countries what number of countries to return.
 
+        }}
+        Notes
+        1- If subkey is not metioned in the question it must not be in the output. For example 'What is the top five mofa countries?' "key": 'mofa' but no subkey
+        2- DO NOT repeate a key
+        3- DO NOT repeate a country
+        4- If the key is outStandings, trips or talkingPoints then the task must be summarization
+        5- Think carefully about subkey. Was it mentioned explicitly in the question? If no omit it, if not sure also omit it
     '''
 
     messages = [
