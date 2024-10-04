@@ -23,6 +23,7 @@ def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> 
         return summarization_extract_data(response["key"], response["countries"], summarization_data)
     else:
         sub_key = response["subkey"] if "subkey" in response else None  
+        sub_key = None  
         return sortable_extract_data(task, response["key"], response["countries"], response["max_countries"], sortable_data, sub_key) 
     
 def summarization_extract_data(key:str, countries:List[str], data:Dict) -> Dict:
@@ -68,10 +69,10 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
         extracted_data[county] = info
 
     if task == "list_accending":
-        evedance  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
     elif task == "list_decending":
         print("list_decending")
-        evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
+        evedance  = sorted(extracted_data.items(), key=lambda x: x[1], reverse=True)
     else:
         print("list_unordered")
         countries  = list(extracted_data.keys())
