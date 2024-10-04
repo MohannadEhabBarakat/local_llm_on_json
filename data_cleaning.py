@@ -147,7 +147,7 @@ def compress_list_dict_combo(data: Dict) -> Dict:
     for country in data.keys():
         new_data[country] = {}
         for key in data[country].keys():
-            if key in ["country", "moi", "qffd", "defense"] and data[country][key]:
+            if key in ["country", "moi", "qffd", "defense"] and data[country][key] is not None:
                 new_data[country][key] = data[country][key][0][list(data[country][key][0])[0]]
             else:
                 if key in ["outStandings", "talkingPoints", "trips"]:
@@ -203,7 +203,6 @@ def load_sortable_data(file_path: str) -> Dict:
     data = clean_data(data)
     data = select_keys(data, ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci"])
     data = compress_list_dict_combo(data)
-    data = replace_none_with_0(data)
     return data
 
 def load_summarization(file_path: str) -> Dict:
@@ -219,6 +218,7 @@ def load_summarization(file_path: str) -> Dict:
     data = json2dict(file_path)
     data = clean_data(data)
     data = select_keys(data, ["talkingPoints", "outStandings", "trips"])
+    data = compress_list_dict_combo(data)
     return data
 
 def data_prep(file_path: str) -> None:
@@ -249,7 +249,8 @@ def data_load() -> Tuple[Dict, Dict]:
     """
     sortable_data = json2dict("sortable_data.json")
     summarization_data = json2dict("summarization_data.json")
-    sortable_data = compress_list_dict_combo(sortable_data)
+    sortable_data = replace_none_with_0(sortable_data)
+
     return sortable_data, summarization_data
 
 def sample_data_load() -> Tuple[Dict, Dict]:
