@@ -89,7 +89,6 @@ def route(question):
             "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
             "key": The main key in the question (ignore any country key),
             "subkey"(optional): The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise please omit the key. Never set it id nor metioned in question,
-            "max_countries"(optional): in case of sort multiple countries what number of countries to return. If all countries are asked for then return -1.
 
         }}
         Notes
@@ -97,9 +96,8 @@ def route(question):
         2- DO NOT repeate a key
         3- DO NOT repeate a country
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
-        5- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5 QIA countries max_countries = 5)
-        6- NEVER EVER SET subkey if not metioned in the question. 
-        7- Make sure to use the correct key/subkey name and max_countries count.
+        5- NEVER EVER SET subkey if not metioned in the question. 
+        6- Make sure to use the correct key/subkey name.
     '''
 
     messages = [
@@ -113,7 +111,37 @@ def route(question):
         temperature=0.3
     )
 
-    return json.loads(outputs[0]["generated_text"][-1]["content"])
+    res = json.loads(outputs[0]["generated_text"][-1]["content"])
+
+    res["max_countries"] = subroute(question)
+    return 
+
+
+def subroute(question):
+    question_template = f'''
+        Help me extract relative data to answer this question {question}.Answer in this format please.
+        {{
+            "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
+            "max_countries": What number of countries to return. If all countries are asked for, then return -1.
+
+        }}
+        Notes
+        1- DO NOT repeate a country
+        2- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5 QIA countries max_countries = 5)
+    '''
+
+    messages = [
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
+        {"role": "user", "content": question_template},
+    ]
+    print(messages)
+    outputs = pipeline(
+        messages,
+        max_new_tokens=256,
+        temperature=0.3
+    )
+
+    return json.loads(outputs[0]["generated_text"][-1]["content"])["max_countries"]
 
 def answerLLM(question, evedance):
     question_template = f'''
