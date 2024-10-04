@@ -109,7 +109,7 @@ def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
             evedance.pop(country)
     
     ans = answerLLM(question, evedance)
-    return {"countries": list(evedance.keys()), "evedance": evedance}
+    return {"answer":ans, "countries": list(evedance.keys()), "evedance": evedance}
 
 
 def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
