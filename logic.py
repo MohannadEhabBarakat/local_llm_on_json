@@ -70,7 +70,11 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
         list: A list of dictionaries containing the extracted data.
     """
     extracted_data = {}
-    countries = countries if countries[0] != "all" else list(data)
+    if countries[0] != "all" and countries != "all":
+        countries = countries   
+    else:
+        countries =  list(data)
+
     for county in countries:
         info = data[county]
         info = info[key]
