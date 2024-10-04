@@ -103,15 +103,15 @@ def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
     return extracted_data
 
 def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
-    # response = route(question)
+    response = route(question)
 
-    response = '''
-    {
-        "countries": ["all"],
-        "task": "summarization",
-        "key": "outStandings"
-    }
-    '''
+    # response = '''
+    # {
+    #     "countries": ["all"],
+    #     "task": "summarization",
+    #     "key": "outStandings"
+    # }
+    # '''
 
     response = json.loads(response)
     extracted_data = extract_data(response, sortable_data, summarization_data)
