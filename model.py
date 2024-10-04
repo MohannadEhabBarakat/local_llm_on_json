@@ -97,7 +97,7 @@ def route(question):
         2- DO NOT repeate a key
         3- DO NOT repeate a country
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
-        5- Set max_countries to -1 if all countries are asked for. Otherwise use the number of countries asked for
+        5- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5 QIA countries max_countries = 5)
         6- NEVER SET subkey if not metioned in the question
     '''
 
