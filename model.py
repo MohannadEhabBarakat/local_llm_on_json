@@ -88,7 +88,7 @@ def route(question):
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
             "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
             "key": The main key in the question (ignore any country key),
-            "subkey"(optional): The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise please omit the key. Never set it id nor metioned in question,
+            "subkey": The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise None. Never set it when metioned in question,
 
         }}
         Notes
@@ -98,6 +98,7 @@ def route(question):
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
         5- NEVER EVER SET subkey if not metioned in the question. 
         6- Make sure to use the correct key/subkey name.
+        7- Was the subkey mentioned in the question? use it. If not, None.
     '''
 
     messages = [
