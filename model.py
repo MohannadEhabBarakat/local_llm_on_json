@@ -2,8 +2,8 @@ import transformers
 import torch
 import json
 
-# model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-model_id = "meta-llama/Llama-3.1-8B-Instruct"
+model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
+# model_id = "meta-llama/Llama-3.1-8B-Instruct"
 # model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
 # model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
