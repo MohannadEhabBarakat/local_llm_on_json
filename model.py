@@ -97,6 +97,7 @@ def route(question):
         2- DO NOT repeate a key
         3- DO NOT repeate a country
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
+        5- Set max_countries to -1 if all countries are asked for
     '''
 
     messages = [
