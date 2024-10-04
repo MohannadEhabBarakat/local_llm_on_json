@@ -27,7 +27,9 @@ def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> 
             task = "list_accending"
             response["task"] = "list_accending"
             response["max_countries"] = 1 if "max_countries" not in response else response["max_countries"]
-
+        if "max_countries" not in response:
+            response["max_countries"] = 10
+            
     if task == "summarization":
         return summarization_extract_data(response["key"], response["countries"], summarization_data)
     else:
