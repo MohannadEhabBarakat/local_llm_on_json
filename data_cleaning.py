@@ -147,7 +147,7 @@ def compress_list_dict_combo(data: Dict) -> Dict:
     for country in data.keys():
         new_data[country] = {}
         for key in data[country].keys():
-            if key in ["country", "moi", "qffd", "defense"] and data[country][key] is not None:
+            if key in ["country", "moi", "qffd", "defense"] and data[country][key]:
                 new_data[country][key] = data[country][key][0][list(data[country][key][0])[0]]
             else:
                 if key in ["outStandings", "talkingPoints", "trips"]:
