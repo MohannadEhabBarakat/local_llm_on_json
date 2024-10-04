@@ -99,7 +99,7 @@ def route(question):
         4- If the key is outStandings, trips or talkingPoints then the task must be summarization
         5- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5 QIA countries max_countries = 5)
         6- NEVER EVER SET subkey if not metioned in the question. 
-        7- FOLLOW SUBKEY AND MAX_COUNTRIES RULES TO THE LETTER. FAILURE TO DO SO WILL RESULT IN A WRONG ANSWER
+        7- Make sure to use the correct key/subkey name and max_countries count.
     '''
 
     messages = [
