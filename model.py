@@ -96,6 +96,7 @@ def route(question):
     1- If subkey is not metioned in the question it should not be in the output. For example 'What is the top five mofa countries?' "key/subkeys": ['mofa']
     2- DO NOT repeate a key
     3- DO NOT repeate a country
+    4- If the key is outStandings, trips or talkingPoints then the task must be summarization
 
     '''
 
@@ -112,6 +113,26 @@ def route(question):
 
     return json.loads(outputs[0]["generated_text"][-1]["content"])
 
+def answerLLM(question, evedance):
+    question_template = f'''
+    Question: {question}
+    Evedance: {evedance}
+
+    Note:
+    1- evedance is for your info to get proper answer. Never descripe its shape or structure. Just use it to answer the question. 
+    2- All of your data is factual and uptodate
+    '''
+    messages = [
+        {"role": "system", "content": f'''You are an expert. You'll be given a question and evedance. Answer the question based on the provided evedance only. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone'''},
+        {"role": "user", "content": question_template},
+    ]
+
+    outputs = pipeline(
+        messages,
+        max_new_tokens=3000,
+        temperature=0.1
+    )
+    return outputs[0]["generated_text"][-1]["content"]
 
 if __name__ == "__main__":
     question = "What is the top five qia QIACr countries?"

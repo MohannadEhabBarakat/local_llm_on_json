@@ -13,7 +13,7 @@ Functions (ideas not actual functions):
 """
 
 from typing import Dict, List, Tuple
-# from model import *
+from model import answerLLM, route
 
 def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> Dict:
 
@@ -95,6 +95,7 @@ def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
         if evedance[country] == None:
             evedance.pop(country)
     
+    ans = answerLLM(question, evedance)
     return {"countries": list(evedance.keys()), "evedance": evedance}
 
 
