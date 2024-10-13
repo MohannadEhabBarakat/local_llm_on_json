@@ -271,6 +271,8 @@ def route_key_subkey(question):
         temperature=temperature,
         top_p=top_p
     )
+    print("outputs key/sbukey", outputs)
+
 
     try:
       res = json.loads(outputs[0]["generated_text"][-1]["content"])
