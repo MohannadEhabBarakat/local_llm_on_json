@@ -89,10 +89,11 @@ def route(question):
             "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
         }}
         Notes
-        1- DO NOT repeate a country
+        1- If all countries are asked for, set countries to ["all"]
         2- Response JSON has only countries and task as keys
         3- Don't use data from the example json. Just use their structure to answer the question
         4- If all countries are asked for, set countries to ["all"]
+        5- Never list countries in the response that were not explicitly mentioned in the question
 
         Example:
         List top 10 countries for energy?
