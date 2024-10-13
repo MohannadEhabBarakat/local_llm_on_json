@@ -279,6 +279,7 @@ def route_key_subkey(question):
     except:
       res = rejson(outputs[0]["generated_text"][-1]["content"])
 
+    print("outputs key/sbukey 3", res)
   
     return res
 
