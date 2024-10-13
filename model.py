@@ -129,12 +129,14 @@ def route(question):
         {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
         {"role": "user", "content": question_template},
     ]
-    # print(messages)
+    top_p = 0.9
+    temperature = 1
+    print("key/sbukey:", temperature, top_p)
     outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=1,
-        top_p=0.9
+        temperature=temperature,
+        top_p=top_p
     )
 
     try:
@@ -205,10 +207,15 @@ def subroute(question):
         {"role": "user", "content": question_template},
     ]
     # print(messages)
+    top_p = 0.9
+    temperature = 1
+    print("max_countries:", temperature, top_p)
+
     outputs = pipeline(
         messages,
         max_new_tokens=256,
-        temperature=0.2
+        temperature=temperature,
+        top_p=top_p
     )
     
     try:
