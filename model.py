@@ -87,39 +87,25 @@ def route(question):
         {{
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
             "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
-            "key": The main key in the question (ignore any country key),
-            "subkey": The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise None. Never set it when metioned in question,
-
         }}
         Notes
-        1- If subkey is not metioned in the question it must not be in the output. For example 'What is the top five qia countries?' "qia": 'mofa' but no subkey
-        2- DO NOT repeate a key
-        3- DO NOT repeate a country
-        4- NEVER EVER SET subkey if not metioned in the question. 
-        5- Make sure to use the correct key/subkey name.
-        6- Was the subkey mentioned in the question? use it. If not, None.
+        1- DO NOT repeate a country
 
         Example:
         List top 10 countries for energy?
         {{
             "countries": ["all"],
-            "task": "list_accending",
-            "key": "energy",
-            "subkey": None
+            "task": "list_accending"
         }}
         What are the lowest qia countries?
         {{
             "countries": ["all"],
-            "task": "list_accending",
-            "key": "qia",
-            "subkey": None
+            "task": "list_accending"
         }}
         What are the top 5 countries for mofa EsgAlly?
         {{
             "countries": ["all"],
-            "task": "list_accending",
-            "key": "mofa",
-            "subkey": "EsgAlly"
+            "task": "list_accending"
         }}
         Respond must be valid json. Make sure it is a vaild JSON
 
@@ -237,6 +223,7 @@ def route_key_subkey(question):
         4- NEVER EVER SET subkey if not metioned in the question. 
         5- Make sure to use the correct key/subkey name.
         6- Was the subkey mentioned in the question? use it. If not, None.
+        7- Your response JSON has only key and subkey
 
         Example:
         List top 10 countries for energy?
@@ -254,7 +241,7 @@ def route_key_subkey(question):
             "key": "mofa",
             "subkey": "EsgAlly"
         }}
-        Respond must be valid json. Make sure it is a vaild JSON
+        Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
     '''
 
