@@ -115,8 +115,8 @@ def route(question):
         {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
         {"role": "user", "content": question_template},
     ]
-    top_p = 0.4
-    temperature = 0.3
+    top_p = 0.9
+    temperature = 0.6
     print("country:", temperature, top_p)
     outputs = pipeline(
         messages,
@@ -151,7 +151,7 @@ def rejson(simi_json):
         messages,
         max_new_tokens=512,
         temperature=0.3,
-        top_p=0.4
+        top_p=0.9
     )
   return json.loads(outputs[0]["generated_text"][-1]["content"])
 
@@ -193,7 +193,7 @@ def subroute(question):
     ]
     # print(messages)
     top_p = 0.9
-    temperature = .3
+    temperature = .6
     print("max_countries:", temperature, top_p)
 
     outputs = pipeline(
