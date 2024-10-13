@@ -342,7 +342,7 @@ def route_key_subkey(question):
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
-    temperature = 0.4
+    temperature = 0.2
     print("key/sbukey:", temperature, top_p)
     outputs = pipeline(
         messages,
