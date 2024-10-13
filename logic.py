@@ -124,8 +124,8 @@ def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
         try: 
             response = route(question)
             break
-        except:
-            continue
+        except Exception as e:
+            print("retrying because of error", e)
 
     # response = '''
     # {
