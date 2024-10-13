@@ -89,7 +89,7 @@ def route(question):
         }}
 
         Steps to follow:
-        0- If no countries are mentioned, set countries to ["all"] !Important
+        0- If no countries are mentioned (explicitly), set countries to ["all"] !Important
         1- Think about the question carefully
         2- Extract the countries mentioned in the question
         3- If all countries are mentioned, set countries to ["all"]
@@ -114,6 +114,11 @@ def route(question):
         {{
             "countries": ["Chile", "Qatar", "United States"],
         }}
+
+        list lowest 3 country in QIACur
+        {{
+            "countries": ["all"],
+        }}
         
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
@@ -124,7 +129,7 @@ def route(question):
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
-    temperature = 0.3
+    temperature = 0.6
     print("country:", temperature, top_p)
     outputs = pipeline(
         messages,
