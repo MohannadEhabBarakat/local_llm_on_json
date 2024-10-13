@@ -81,7 +81,10 @@ jsn = '''
 # question = "What is the top five qia QIACr countries?"
 # question = "Summary talking points for Chile?"
 # 1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
-
+# The default value for countries is ["all"].
+# 2- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
+# 3- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
+# 4- This is not answering the question. This is used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 def route(question):
     question_template = f'''
         Help me extract relative data to answer this question {question}. Answer in this format please:
@@ -91,10 +94,8 @@ def route(question):
         }}
 
         Steps to follow:   
-        1- The default value for countries is ["all"].
-        2- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
-        3- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
-        4- This is not answering the question. This is used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
+        1- countries should be ["all"] unliss otherwise mentioned in the question
+        2- Don't add any extra countries that are not mentioned in the question
 
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
