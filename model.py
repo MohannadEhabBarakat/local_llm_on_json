@@ -190,6 +190,7 @@ def subroute(question):
         {{
             "max_countries": 5
         }}
+        
 
         Respond must be valid json. Make sure it is a vaild JSON
 
@@ -251,6 +252,12 @@ def route_key_subkey(question):
             "key": "mofa",
             "subkey": "EsgAlly"
         }}
+        list top 7 moci countries
+        {{
+            "key": "moci",
+            "subkey": None
+        }}
+        
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
     '''
