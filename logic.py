@@ -79,6 +79,7 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
     for county in countries:
         info = data[county]
         info = info[key]
+        print("info", info)
         if subkey: info = info[subkey]
         if type(info) == dict:
             info = sum(info.values())
