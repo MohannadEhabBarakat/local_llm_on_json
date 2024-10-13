@@ -136,6 +136,8 @@ def route(question):
     key_subkey = route_key_subkey(question)
     res["key"] = key_subkey["key"]
     res["subkey"] = key_subkey["subkey"]
+
+    print("Finall filter", res)
     return res
 
 def rejson(simi_json):
