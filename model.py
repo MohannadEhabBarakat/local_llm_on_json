@@ -170,7 +170,6 @@ def rejson(simi_json):
 
 def subroute(question):
     question_template = f'''
-        <|fim▁begin|>
         Help me extract relative data to answer this question {question}.Answer in this format please.
         {{
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
@@ -204,7 +203,6 @@ def subroute(question):
             "max_countries": 5
         }}
         Respond must be valid json. Make sure it is a vaild JSON
-        <|fim▁end|>
     '''
 
     messages = [
@@ -222,8 +220,9 @@ def subroute(question):
     #     temperature=temperature,
     #     top_p=top_p
     # )
-    inputs = tokenizer(messages, return_tensors="pt").to(model.device)
-    outputs = model.generate(**inputs, max_length=128)
+    inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
+    # tokenizer.eos_token_id is the id of <｜end▁of▁sentence｜>  token
+    outputs = model.generate(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, eos_token_id=tokenizer.eos_token_id)
     print(outputs)
     try:
       res = json.loads(outputs[0]["generated_text"][-1]["content"])
