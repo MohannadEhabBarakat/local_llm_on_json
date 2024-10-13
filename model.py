@@ -3,8 +3,8 @@ import torch
 import json
 
 # model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-model_id = "meta-llama/Llama-3.1-8B-Instruct"
-# model_id = "meta-llama/CodeLlama-13b-Python-hf"
+# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
 # model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
 # model_id = "unsloth/Llama-3.2-3B-Instruct"
@@ -187,6 +187,11 @@ def subroute(question):
             "max_countries": -1
         }}
         What are the top 5 countries for mofa EsgAlly?
+        {{
+            "countries": ["all"],
+            "max_countries": 5
+        }}
+        List top 5 countries for qia
         {{
             "countries": ["all"],
             "max_countries": 5
