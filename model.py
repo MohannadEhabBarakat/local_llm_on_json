@@ -320,6 +320,11 @@ def route_key_subkey(question):
             "key": "moci",
             "subkey": None
         }}
+        List top 5 countries for Invest
+        {{
+            "key": "energy",
+            "subkey": "Invest"
+        }}
 
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
