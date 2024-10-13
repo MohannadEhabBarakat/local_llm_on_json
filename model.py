@@ -131,7 +131,7 @@ def route(question):
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
-    temperature = 0.9
+    temperature = 0.6
     print("country:", temperature, top_p)
     outputs = pipeline(
         messages,
