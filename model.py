@@ -1,7 +1,6 @@
 import transformers
 import torch
 import json
-from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 model_id = "meta-llama/Llama-3.1-8B-Instruct"
@@ -16,9 +15,6 @@ pipeline = transformers.pipeline(
     model_kwargs={"torch_dtype": torch.bfloat16},
     device_map="auto",
 )
-
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-Coder-V2-Lite-Base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-Coder-V2-Lite-Base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
 
 jsn = '''
 {
@@ -172,58 +168,49 @@ def subroute(question):
     question_template = f'''
         Help me extract relative data to answer this question {question}.Answer in this format please.
         {{
-            "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
-            "max_countries": What number of countries to return. If all countries are asked for, then return -1.
-
+            "max_countries": What number of countries is the user intersted in seeing. If all countries are asked for, then return -1.
         }}
         Notes:
-        1- DO NOT repeate a country
-        2- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5  countries max_countries = 5)
-        3- ALWAYS set max_countries to the number in the question or -1 ONLY if all countries are asked for
+        1- Set max_countries to to countries asked for, if all countries are asked for set it to -1 (e.g. "List defense data for all countries" max_countries = -1 but What are the lowest 5  countries max_countries = 5)
+        2- ALWAYS set max_countries to the number in the question or -1 ONLY if all countries are asked for
 
         Example:
         List top 10 countries for energy?
         {{
-            "countries": ["all"],
             "max_countries": 10
         }}
         What are the lowest QIA countries?
         {{
-            "countries": ["all"],
             "max_countries": -1
         }}
         What are the top 5 countries for mofa EsgAlly?
         {{
-            "countries": ["all"],
             "max_countries": 5
         }}
         List top 5 countries for qia
         {{
-            "countries": ["all"],
             "max_countries": 5
         }}
         Respond must be valid json. Make sure it is a vaild JSON
+
     '''
 
     messages = [
-        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. '''},
         {"role": "user", "content": question_template},
     ]
     # print(messages)
     top_p = 0.9
-    temperature = 0
+    temperature = .6
     print("max_countries:", temperature, top_p)
 
-    # outputs = pipeline(
-    #     messages,
-    #     max_new_tokens=256,
-    #     temperature=temperature,
-    #     top_p=top_p
-    # )
-    inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
-    # tokenizer.eos_token_id is the id of <｜end▁of▁sentence｜>  token
-    outputs = model.generate(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, eos_token_id=tokenizer.eos_token_id)
-    print(outputs)
+    outputs = pipeline(
+        messages,
+        max_new_tokens=256,
+        temperature=temperature,
+        top_p=top_p
+    )
+    
     try:
       res = json.loads(outputs[0]["generated_text"][-1]["content"])
     except:
