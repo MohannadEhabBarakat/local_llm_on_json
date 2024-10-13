@@ -141,7 +141,7 @@ def route(question):
     print("pre-review filter", res)
     res = review(question, res)
     print("Finall filter", res)
-    
+
     return res
 
 def rejson(simi_json):
@@ -308,6 +308,7 @@ def review(question, keys):
     Question: {question}
     dictionary: {keys}
 
+    Response format:
     {{
         'countries': a list of contries asked about or ["all"] if the question envolvs all countries,
         "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
@@ -321,6 +322,7 @@ def review(question, keys):
     2- Is there a mistake in the dictionary? If so, fix it. If in doubt, leave it as is
     3- Return a valid dictionary with the corrected values. Do not add any extra information to the dictionary. Just correct the values that are wrong. If the value is correct, leave it as is.
 
+    Only resond with a valid JSON. Make sure it is a vaild JSON. Must follow the example above
     '''
     messages = [
         {"role": "system", "content": f'''You are an JSON expert. You'll be given a question and extraction dictionary. Fix any errors in the dictionary and return the corrected dictionary'''},
@@ -330,7 +332,8 @@ def review(question, keys):
     outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=0.2
+        temperature=0.6,
+        top_p=0.9
     )
     return outputs[0]["generated_text"][-1]["content"]
 
