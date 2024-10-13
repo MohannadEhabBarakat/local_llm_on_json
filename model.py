@@ -91,6 +91,8 @@ def route(question):
         Notes
         1- DO NOT repeate a country
         2- Response JSON has only countries and task as keys
+        3- Don't use data from the example json. Just use their structure to answer the question
+        4- If all countries are asked for, set countries to ["all"]
 
         Example:
         List top 10 countries for energy?
@@ -138,8 +140,8 @@ def route(question):
     res["key"] = key_subkey["key"]
     res["subkey"] = key_subkey["subkey"]
     
-    print("pre-review filter", res)
-    res = review(question, res)
+    # print("pre-review filter", res)
+    # res = review(question, res)
     print("Finall filter", res)
 
     return res
