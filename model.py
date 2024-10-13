@@ -86,6 +86,7 @@ def route(question):
         Help me extract relative data to answer this question {question}. Answer in this format please:
         {{
             "countries": a list of contries needed to answer the question or ["all"] if the question envolvs all countries. Default is ["all"]
+            "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
         }}
 
         Steps to follow:
@@ -99,23 +100,28 @@ def route(question):
         List top 10 countries for energy?
         {{
             "countries": ["all"],
+            "task": "list_accending"
         }}
         What are the lowest qia countries?
         {{
             "countries": ["all"],
+            "task": "list_accending"
         }}
         What are the lowest 5 countries for mofa EsgAlly?
         {{
             "countries": ["all"],
+            "task": "list_decending"
         }}
         List Chile, Qatar, and the United States for qia
         {{
             "countries": ["Chile", "Qatar", "United States"],
+            "task": "list_unordered"
         }}
 
         list lowest 3 country in ...
         {{
             "countries": ["all"],
+            "task": "list_accending"
         }}
         
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
@@ -165,7 +171,7 @@ def route_task(question):
         Example:
         List top 10 countries for energy?
         {{
-            "task": "list_accending"
+            "task": "list_decending"
         }}
         What are the lowest qia countries?
         {{
@@ -173,7 +179,7 @@ def route_task(question):
         }}
         What are the top 5 countries for mofa EsgAlly?
         {{
-            "task": "list_accending"
+            "task": "list_decending"
         }}
         List 5 countries for qia
         {{
