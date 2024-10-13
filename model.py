@@ -90,6 +90,7 @@ def route(question):
         }}
         Notes
         1- DO NOT repeate a country
+        2- Response JSON has only countries and task as keys
 
         Example:
         List top 10 countries for energy?
@@ -107,7 +108,7 @@ def route(question):
             "countries": ["all"],
             "task": "list_accending"
         }}
-        Respond must be valid json. Make sure it is a vaild JSON
+        Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
     '''
 
