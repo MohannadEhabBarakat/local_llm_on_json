@@ -93,7 +93,8 @@ def route(question):
         1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
         2- The default value for countries is ["all"].
         3- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
-
+        4- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
+        
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
         Example:
