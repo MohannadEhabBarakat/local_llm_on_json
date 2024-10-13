@@ -83,9 +83,9 @@ jsn = '''
 
 def route(question):
     question_template = f'''
-        Help me extract relative data to answer this question {question}.Answer in this format please.
+        Help me extract relative data to answer this question {question}. Answer in this format please.
         {{
-            "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
+            "countries": a list of contries asked about (if explicitly mentioned) or ["all"] if the question envolvs all countries,
         }}
 
         Steps to follow:
