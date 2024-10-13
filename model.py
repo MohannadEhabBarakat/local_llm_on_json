@@ -86,32 +86,32 @@ def route(question):
         Help me extract relative data to answer this question {question}.Answer in this format please.
         {{
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
-            "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
         }}
         Notes
         1- If all countries are asked for, set countries to ["all"]
-        2- Response JSON has only countries and task as keys
-        3- Don't use data from the example json. Just use their structure to answer the question
-        4- If all countries are asked for, set countries to ["all"]
-        5- Never list countries in the response that were not explicitly mentioned in the question
-        6- Focus on real countries or just use "all" if all countries are asked for
-        
+        2- Don't use data from the example json. Just use their structure to answer the question
+        3- If all countries are asked for, set countries to ["all"]
+        4- Never list countries in the response that were not explicitly mentioned in the question
+        5- Focus on real countries or just use "all" if all countries are asked for
+
         Example:
         List top 10 countries for energy?
         {{
             "countries": ["all"],
-            "task": "list_accending"
         }}
         What are the lowest qia countries?
         {{
             "countries": ["all"],
-            "task": "list_accending"
         }}
         What are the top 5 countries for mofa EsgAlly?
         {{
             "countries": ["all"],
-            "task": "list_accending"
         }}
+        List Chile, Qatar, and the United States for qia
+        {{
+            "countries": ["Chile", "Qatar", "United States"],
+        }}
+        
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
     '''
@@ -141,12 +141,65 @@ def route(question):
     key_subkey = route_key_subkey(question)
     res["key"] = key_subkey["key"]
     res["subkey"] = key_subkey["subkey"]
+    res["task"] = route_task(question)
     
     # print("pre-review filter", res)
     # res = review(question, res)
     print("Finall filter", res)
 
     return res
+
+def route_task(question):
+    question_template = f'''
+        Help me extract relative data to answer this question {question}.Answer in this format please.
+        {{
+            "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
+        }}
+        
+        Example:
+        List top 10 countries for energy?
+        {{
+            "task": "list_accending"
+        }}
+        What are the lowest qia countries?
+        {{
+            "task": "list_accending"
+        }}
+        What are the top 5 countries for mofa EsgAlly?
+        {{
+            "task": "list_accending"
+        }}
+        List 5 countries for qia
+        {{
+            "task": "list_unordered"
+        }}
+
+        Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
+
+    '''
+
+    messages = [
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only.'''},
+        {"role": "user", "content": question_template},
+    ]
+    top_p = 0.9
+    temperature = 0.6
+    print("country:", temperature, top_p)
+    outputs = pipeline(
+        messages,
+        max_new_tokens=512,
+        temperature=temperature,
+        top_p=top_p
+    )
+    print("outputs country", outputs)
+    try:
+      res = json.loads(outputs[0]["generated_text"][-1]["content"])
+    except:
+      res = rejson(outputs[0]["generated_text"][-1]["content"])
+    
+    
+
+    return res["task"]
 
 def rejson(simi_json):
   question_template = f'''
