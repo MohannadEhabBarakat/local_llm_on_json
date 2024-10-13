@@ -83,9 +83,9 @@ jsn = '''
 
 def route(question):
     question_template = f'''
-        Help me extract relative data to answer this question {question}. Answer in this format please.
+        Help me extract relative data to answer this question {question}. Answer in this format please:
         {{
-            "countries": a list of contries asked about (if explicitly mentioned) or ["all"] if the question envolvs all countries,
+            "countries": a list of contries needed to answer the question or ["all"] if the question envolvs all countries
         }}
 
         Steps to follow:
@@ -97,6 +97,8 @@ def route(question):
         5- NEVER EVER SET countries to None. Always set it to ["all"] if no countries are mentioned
         6- NEVER EVER add country that was not mentioned explicitly in the question. Only add countries that are explicitly mentioned in the question
 
+        Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
+        
         Example:
         List top 10 countries for energy?
         {{
