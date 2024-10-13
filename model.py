@@ -94,6 +94,7 @@ def route(question):
         1- The default value for countries is ["all"].
         2- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
         3- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
+        4- This is not answering the question. This is used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
