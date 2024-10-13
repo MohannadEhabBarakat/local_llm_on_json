@@ -208,7 +208,7 @@ def subroute(question):
     ]
     # print(messages)
     top_p = 0.9
-    temperature = 1
+    temperature = 0
     print("max_countries:", temperature, top_p)
 
     outputs = pipeline(
