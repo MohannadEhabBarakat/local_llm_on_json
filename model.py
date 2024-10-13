@@ -2,8 +2,8 @@ import transformers
 import torch
 import json
 
-model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+# model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
 # model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
 # model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
@@ -133,7 +133,8 @@ def route(question):
     outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=0.2
+        temperature=0.6,
+        top_p=0.9
     )
 
     try:
@@ -156,7 +157,8 @@ def rejson(simi_json):
   outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=0.1
+        temperature=0.6,
+        top_p=0.9
     )
   return json.loads(outputs[0]["generated_text"][-1]["content"])
 
