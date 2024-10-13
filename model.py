@@ -137,8 +137,11 @@ def route(question):
     key_subkey = route_key_subkey(question)
     res["key"] = key_subkey["key"]
     res["subkey"] = key_subkey["subkey"]
-
+    
+    print("pre-review filter", res)
+    res = review(question, res)
     print("Finall filter", res)
+    
     return res
 
 def rejson(simi_json):
@@ -295,6 +298,38 @@ def answerLLM(question, evedance):
     outputs = pipeline(
         messages,
         max_new_tokens=3000,
+        temperature=0.2
+    )
+    return outputs[0]["generated_text"][-1]["content"]
+
+
+def review(question, keys):
+    question_template = f'''
+    Question: {question}
+    dictionary: {keys}
+
+    {{
+        'countries': a list of contries asked about or ["all"] if the question envolvs all countries,
+        "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
+        'max_countries': What number of countries is the user intersted in seeing. If all countries are asked for, then return -1., 
+        "key": The main key in the question (ignore any country key),
+        "subkey": The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise None. Never set it when metioned in question,
+    }}
+
+    Steps to follow:
+    1- Think about the question and the dictionary provided
+    2- Is there a mistake in the dictionary? If so, fix it. If in doubt, leave it as is
+    3- Return a valid dictionary with the corrected values. Do not add any extra information to the dictionary. Just correct the values that are wrong. If the value is correct, leave it as is.
+
+    '''
+    messages = [
+        {"role": "system", "content": f'''You are an JSON expert. You'll be given a question and extraction dictionary. Fix any errors in the dictionary and return the corrected dictionary'''},
+        {"role": "user", "content": question_template},
+    ]
+
+    outputs = pipeline(
+        messages,
+        max_new_tokens=512,
         temperature=0.2
     )
     return outputs[0]["generated_text"][-1]["content"]

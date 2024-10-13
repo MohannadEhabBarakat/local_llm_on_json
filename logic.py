@@ -123,24 +123,24 @@ def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
     for i in range(5):
         try: 
             response = route(question)
-            break
+            # response = '''
+            # {
+            #     "countries": ["all"],
+            #     "task": "summarization",
+            #     "key": "outStandings"
+            # }
+            # '''
+
+            # response = json.loads(response)
+            print("response", response)
+            extracted_data = extract_data(response, sortable_data, summarization_data)
+            print("extracted_data", extracted_data)
+            return format_data(extracted_data, response["task"], question)
+
         except Exception as e:
             print("retrying because of error", e)
 
-    # response = '''
-    # {
-    #     "countries": ["all"],
-    #     "task": "summarization",
-    #     "key": "outStandings"
-    # }
-    # '''
-
-    # response = json.loads(response)
-    print("response", response)
-    extracted_data = extract_data(response, sortable_data, summarization_data)
-    print("extracted_data", extracted_data)
-    return format_data(extracted_data, response["task"], question)
-
+   
 
 if __name__ == "__main__":
     from data_cleaning import *
