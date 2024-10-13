@@ -86,7 +86,7 @@ def route(question):
         Help me extract relative data to answer this question {question}.Answer in this format please.
         {{
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
-            "task": one of the following "list_accending"(e.g. least, lowest ...etc), "list_decending"(e.g. top, best ...etc), "list_unordered" or "summarization",
+            "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
         }}
         Notes
         1- DO NOT repeate a country
@@ -115,7 +115,7 @@ def route(question):
     '''
 
     messages = [
-        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only.'''},
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
@@ -257,7 +257,7 @@ def route_key_subkey(question):
             "key": "moci",
             "subkey": None
         }}
-        
+
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
 
     '''
