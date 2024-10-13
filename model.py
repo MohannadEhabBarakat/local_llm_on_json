@@ -80,6 +80,7 @@ jsn = '''
 
 # question = "What is the top five qia QIACr countries?"
 # question = "Summary talking points for Chile?"
+# 1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
 
 def route(question):
     question_template = f'''
@@ -89,12 +90,11 @@ def route(question):
             "task": one of the following "list_accending"(e.g. least, lowest, low ...etc), "list_decending"(e.g. top, best, heighst ...etc), "list_unordered" or "summarization",
         }}
 
-        Steps to follow:
-        1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
-        2- The default value for countries is ["all"].
-        3- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
-        4- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
-        
+        Steps to follow:   
+        1- The default value for countries is ["all"].
+        2- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
+        3- NEVER ADD COUNTIRES THAT ARE NOT MENTIONED IN THE QUESTION
+
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
         Example:
