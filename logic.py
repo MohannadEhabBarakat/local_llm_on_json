@@ -82,7 +82,7 @@ def sortable_extract_data(task:str, key:str, countries:List[str], max_countries:
         if type(info) == dict:
             info = sum(info.values())
         extracted_data[county] = info
-
+    print("extracted_data", extracted_data)
     if task == "list_accending":
         evedance  = sorted(extracted_data.items(), key=lambda x: x[1])
     elif task == "list_decending":
