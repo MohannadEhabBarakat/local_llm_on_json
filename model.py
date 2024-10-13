@@ -145,6 +145,9 @@ def route(question):
       res = rejson(outputs[0]["generated_text"][-1]["content"])
 
     res["max_countries"] = subroute(question)
+    key_subkey = route_key_subkey(question)
+    res["key"] = key_subkey["key"]
+    res["subkey"] = key_subkey["subkey"]
     return res
 
 def rejson(simi_json):
@@ -220,6 +223,63 @@ def subroute(question):
 
     return res["max_countries"]
 
+def route_key_subkey(question):
+    question_template = f'''
+        Help me extract relative data to answer this question {question}.Answer in this format please.
+        {{
+            "key": The main key in the question (ignore any country key),
+            "subkey": The sub key in the question (ignore any country key) ONLY used if the subkey is explicitly mentioned in the question otherwise None. Never set it when metioned in question,
+
+        }}
+        Notes
+        1- If subkey is not metioned in the question it must not be in the output. For example 'What is the top five qia countries?' "qia": 'mofa' but no subkey
+        2- DO NOT repeate a key
+        4- NEVER EVER SET subkey if not metioned in the question. 
+        5- Make sure to use the correct key/subkey name.
+        6- Was the subkey mentioned in the question? use it. If not, None.
+
+        Example:
+        List top 10 countries for energy?
+        {{
+            "key": "energy",
+            "subkey": None
+        }}
+        What are the lowest qia countries?
+        {{
+            "key": "qia",
+            "subkey": None
+        }}
+        What are the top 5 countries for mofa EsgAlly?
+        {{
+            "key": "mofa",
+            "subkey": "EsgAlly"
+        }}
+        Respond must be valid json. Make sure it is a vaild JSON
+
+    '''
+
+    messages = [
+        {"role": "system", "content": f'''You are a json expert. You answer all questions in json only. Use this json example as your guide for all answers {jsn}'''},
+        {"role": "user", "content": question_template},
+    ]
+    top_p = 0.9
+    temperature = 0.3
+    print("key/sbukey:", temperature, top_p)
+    outputs = pipeline(
+        messages,
+        max_new_tokens=512,
+        temperature=temperature,
+        top_p=top_p
+    )
+
+    try:
+      res = json.loads(outputs[0]["generated_text"][-1]["content"])
+    except:
+      res = rejson(outputs[0]["generated_text"][-1]["content"])
+
+  
+    return res
+
 def answerLLM(question, evedance):
     question_template = f'''
     Question: {question}
@@ -228,6 +288,7 @@ def answerLLM(question, evedance):
     Note:
     1- evedance is for your info to get proper answer. Never descripe its shape or structure. Just use it to answer the question. 
     2- All of your data is factual and uptodate
+    3- Never add any extra information to the answer that is not in the evedance
     '''
     messages = [
         {"role": "system", "content": f'''You are an expert. You'll be given a question and evedance. Answer the question based on the provided evedance only. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone'''},
