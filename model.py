@@ -332,6 +332,11 @@ def route_key_subkey(question):
             "key": "energy",
             "subkey": "Invest"
         }}
+        What are the lowest energy countries
+        {{
+            "key": "energy",
+            "subkey": None
+        }}
 
         Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above. Don't add any other keys
 
@@ -342,7 +347,7 @@ def route_key_subkey(question):
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
-    temperature = 0.2
+    temperature = 0.6
     print("key/sbukey:", temperature, top_p)
     outputs = pipeline(
         messages,
