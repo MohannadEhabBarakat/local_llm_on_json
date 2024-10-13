@@ -133,8 +133,8 @@ def route(question):
     outputs = pipeline(
         messages,
         max_new_tokens=512,
-        temperature=0.6,
-        top_p=0.9
+        temperature=0,
+        top_p=0.1
     )
 
     try:
