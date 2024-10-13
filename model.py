@@ -271,7 +271,7 @@ def route_key_subkey(question):
         temperature=temperature,
         top_p=top_p
     )
-    print("outputs key/sbukey", outputs)
+    print("outputs key/sbukey 2", outputs)
 
 
     try:
