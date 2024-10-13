@@ -105,7 +105,7 @@ def route(question):
         {{
             "countries": ["all"],
         }}
-        What are the top 5 countries for mofa EsgAlly?
+        What are the lowest 5 countries for mofa EsgAlly?
         {{
             "countries": ["all"],
         }}
