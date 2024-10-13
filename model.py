@@ -117,18 +117,20 @@ def route(question):
     ]
     top_p = 0.4
     temperature = 0.3
-    print("key/sbukey:", temperature, top_p)
+    print("country:", temperature, top_p)
     outputs = pipeline(
         messages,
         max_new_tokens=512,
         temperature=temperature,
         top_p=top_p
     )
-
+    print("outputs country", outputs)
     try:
       res = json.loads(outputs[0]["generated_text"][-1]["content"])
     except:
       res = rejson(outputs[0]["generated_text"][-1]["content"])
+    
+    print("outputs country 2", res)
 
     res["max_countries"] = subroute(question)
     key_subkey = route_key_subkey(question)
