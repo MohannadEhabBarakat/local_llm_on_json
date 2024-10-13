@@ -89,16 +89,16 @@ def route(question):
         }}
 
         Steps to follow:
-        0- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
-        1- If no countries are mentioned (explicitly), set countries to ["all"] !Important
-        2- Think about the question carefully
+        1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
+        2- If no countries are mentioned (explicitly), set countries to ["all"] !Important
         3- Extract the countries mentioned in the question
         4- If all countries are mentioned, set countries to ["all"]
         5- NEVER EVER SET countries to None. Always set it to ["all"] if no countries are mentioned
         6- NEVER EVER add country that was not mentioned explicitly in the question. Only add countries that are explicitly mentioned in the question
+        7- Please never add countries that are not mentioned in the question. Only add countries that are explicitly mentioned in the question or just ["all"] when in doubt
 
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
-        
+
         Example:
         List top 10 countries for energy?
         {{
