@@ -333,7 +333,7 @@ def route_key_subkey(question):
             "subkey": "Invest"
         }}
 
-        Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above
+        Respond must be valid json. Make sure it is a vaild JSON. Must follow the example above. Don't add any other keys
 
     '''
 
@@ -342,7 +342,7 @@ def route_key_subkey(question):
         {"role": "user", "content": question_template},
     ]
     top_p = 0.9
-    temperature = 0.6
+    temperature = 0.4
     print("key/sbukey:", temperature, top_p)
     outputs = pipeline(
         messages,
