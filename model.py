@@ -87,12 +87,12 @@ def route(question):
         {{
             "countries": a list of contries asked about or ["all"] if the question envolvs all countries,
         }}
-        Notes
-        1- If all countries are asked for, set countries to ["all"]
-        2- Don't use data from the example json. Just use their structure to answer the question
-        3- If all countries are asked for, set countries to ["all"]
-        4- Never list countries in the response that were not explicitly mentioned in the question
-        5- Focus on real countries or just use "all" if all countries are asked for
+
+        Steps to follow:
+        1- Think about the question carefully
+        2- Extract the countries mentioned in the question
+        3- If all countries are mentioned, set countries to ["all"]
+        4- If no countries are mentioned, set countries to ["all"]
 
         Example:
         List top 10 countries for energy?
