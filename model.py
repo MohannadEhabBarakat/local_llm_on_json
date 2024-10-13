@@ -89,6 +89,7 @@ def route(question):
         }}
 
         Steps to follow:
+        0- If no countries are mentioned, set countries to ["all"] !Important
         1- Think about the question carefully
         2- Extract the countries mentioned in the question
         3- If all countries are mentioned, set countries to ["all"]
