@@ -284,6 +284,8 @@ def answerLLM(question, evedance):
     1- evedance is for your info to get proper answer. Never descripe its shape or structure. Just use it to answer the question. 
     2- All of your data is factual and uptodate
     3- Never add any extra information to the answer that is not in the evedance
+
+    Do not add information that is not in the evedance. Just answer the question based on the evedance provided. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone
     '''
     messages = [
         {"role": "system", "content": f'''You are an expert. You'll be given a question and evedance. Answer the question based on the provided evedance only. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone'''},
