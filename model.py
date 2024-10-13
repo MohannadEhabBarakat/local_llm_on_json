@@ -85,17 +85,13 @@ def route(question):
     question_template = f'''
         Help me extract relative data to answer this question {question}. Answer in this format please:
         {{
-            "countries": a list of contries needed to answer the question or ["all"] if the question envolvs all countries
+            "countries": a list of contries needed to answer the question or ["all"] if the question envolvs all countries. Default is ["all"]
         }}
 
         Steps to follow:
         1- When answering ignore those words ["country", "moi", "defense", "energy", "mofa", "qia", "qffd", "moci", "Expl", "Prdt", "Invest", "LNG", "EsgAlly", "MultLoy", "QIACur", "QIAPtos", "TrdFdi", "EssTrd"]
-        2- If no countries are mentioned (explicitly), set countries to ["all"] !Important
-        3- Extract the countries mentioned in the question
-        4- If all countries are mentioned, set countries to ["all"]
-        5- NEVER EVER SET countries to None. Always set it to ["all"] if no countries are mentioned
-        6- NEVER EVER add country that was not mentioned explicitly in the question. Only add countries that are explicitly mentioned in the question
-        7- Please never add countries that are not mentioned in the question. Only add countries that are explicitly mentioned in the question or just ["all"] when in doubt
+        2- The default value for countries is ["all"].
+        3- If the question is about a specific country or countries, set the countries to those countries. If all countries are asked for, set it to ["all"]
 
         Those countries are used to extract the data needed to answer the question. Make sure to extract the correct countries. If no countries are mentioned, set it to ["all"]
 
