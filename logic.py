@@ -120,7 +120,7 @@ def sortable_format_data(extracted_data:Dict, question:str) -> Dict:
     return extracted_data
 
 def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
-    for i in range(5):
+    for i in range(8):
         try: 
             response = route(question)
             # response = '''

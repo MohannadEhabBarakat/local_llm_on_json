@@ -94,7 +94,8 @@ def route(question):
         3- Don't use data from the example json. Just use their structure to answer the question
         4- If all countries are asked for, set countries to ["all"]
         5- Never list countries in the response that were not explicitly mentioned in the question
-
+        6- Focus on real countries or just use "all" if all countries are asked for
+        
         Example:
         List top 10 countries for energy?
         {{
