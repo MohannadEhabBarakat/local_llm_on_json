@@ -9,7 +9,7 @@ app = FastAPI()
 sortable_data, summarization_data = data_load()
 
 
-@app.get("/{question}")
+@app.get("/")
 def read_root(question:str):
     return answer(question, sortable_data, summarization_data)
 
