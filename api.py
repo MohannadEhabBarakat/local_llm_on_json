@@ -14,6 +14,6 @@ def read_root(question:str):
     return answer(question, sortable_data, summarization_data)
 
 
-@app.get("/")
+@app.post("/update")
 def update_data():
     return data_prep("data.json")
