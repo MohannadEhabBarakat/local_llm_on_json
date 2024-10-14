@@ -2,7 +2,8 @@ from typing import Union
 from fastapi import FastAPI
 try:from data_cleaning import *
 except: from .data_cleaning import *
-from logic import answer
+try:from logic import answer
+except: from .logic import answer
 
 app = FastAPI()
 sortable_data, summarization_data = data_load()
