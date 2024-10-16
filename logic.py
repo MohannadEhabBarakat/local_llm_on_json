@@ -13,8 +13,8 @@ Functions (ideas not actual functions):
 """
 
 from typing import Dict, List, Tuple
-try: from model import answerLLM, route
-except: from .model import answerLLM, route
+try: from model import summarizationLLM, route
+except: from .model import summarizationLLM, route
 import traceback
 
 def extract_data(response:Dict, sortable_data:Dict, summarization_data:Dict) -> Dict:
@@ -109,11 +109,16 @@ def format_data(extracted_data:Dict, task:str, question:str) -> Dict:
 def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
     countries, evedance = extracted_data["countries"], extracted_data["evedance"]
 
+    ans = {}
     for country in countries:
         if evedance[country] == None:
             evedance.pop(country)
-    
-    ans = answerLLM(question, evedance)
+        else:
+            tmp_evedance = evedance[country]
+            ans[country] = []
+            for point in tmp_evedance:
+                ans[country].append(summarizationLLM(question, point))
+
     return {"answer":ans, "countries": list(evedance.keys()), "evedance": evedance}
 
 
@@ -146,5 +151,6 @@ def answer(question:str, sortable_data:Dict, summarization_data:Dict) -> Dict:
 if __name__ == "__main__":
     from data_cleaning import *
     sortable_data, summarization_data = data_load()
-    question = ""
-    print(answer(question, sortable_data, summarization_data))
+    question = "Summary outstanings for all countries?"
+    from pprint import pprint
+    pprint(answer(question, sortable_data, summarization_data)["answer"])

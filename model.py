@@ -5,8 +5,8 @@ import json
 # import os
 # os.environ['HF_HOME'] = '/mnt'
 
-model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+# model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
 # model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
 # model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
@@ -372,18 +372,21 @@ def route_key_subkey(question):
 
 def summarizationLLM(question, evedance):
     question_template = f'''
-    Question: {question}
-    Evedance: {evedance}
+    Question: summarize the context
+    context: {evedance}
 
     Note:
-    1- evedance is for your info to get proper answer. Never descripe its shape or structure. Just use it to answer the question. 
+    1- context is for your info to get proper summarization. Never descripe its shape or structure. Just use it for summarization
     2- All of your data is factual and uptodate
-    3- Never add any extra information to the answer that is not in the evedance
+    3- Never add any extra information to the answer that is not in the context
+    4- If the info nonsense like test of random letters just ignore it
+    5- Don't start with Here's a summary of the context just dive into the summary
+    6- Make it as short and concise as possible
 
-    Do not add information that is not in the evedance. Just answer the question based on the evedance provided. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone
+    Do not add information that is not in the context. Just answer the question based on the evedance provided. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone
     '''
     messages = [
-        {"role": "system", "content": f'''You are an expert. You'll be given a question and evedance. Answer the question based on the provided evedance only. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone'''},
+        {"role": "system", "content": f'''You are an summarization expert. You'll be given a context. Summarize the context without adding any new info. All of your answers are in plain English with a direct frendly tone'''},
         {"role": "user", "content": question_template},
     ]
 
