@@ -1,4 +1,6 @@
 transformers
-torch
+torch 
+torchvision 
+torchaudio 
 fastapi[standard]
 accelerate

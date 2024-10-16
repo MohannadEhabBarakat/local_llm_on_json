@@ -2,8 +2,11 @@ import transformers
 import torch
 import json
 
-# model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
-model_id = "meta-llama/Llama-3.1-8B-Instruct"
+# import os
+# os.environ['HF_HOME'] = '/mnt'
+
+model_id = "meta-llama/Meta-Llama-3.1-70B-Instruct"
+# model_id = "meta-llama/Llama-3.1-8B-Instruct"
 # model_id = "meta-llama/CodeLlama-13b-Python-hf"
 # model_id = "meta-llama/CodeLlama-7b-Instruct-hf"
 # model_id = "meta-llama/CodeLlama-34b-Instruct-hf"
@@ -367,7 +370,7 @@ def route_key_subkey(question):
   
     return res
 
-def answerLLM(question, evedance):
+def summarizationLLM(question, evedance):
     question_template = f'''
     Question: {question}
     Evedance: {evedance}
@@ -427,7 +430,8 @@ def review(question, keys):
     return outputs[0]["generated_text"][-1]["content"]
 
 if __name__ == "__main__":
-    question = "What is the top five qia QIACr countries?"
-    print(route(question))
-    question = "Summary talking points for Chile?"
+    # question = "What is the top five qia QIACr countries?"
+    # print(route(question))
+    question = "Summary talking points for all countries?"
+    
     print(route(question)) 
