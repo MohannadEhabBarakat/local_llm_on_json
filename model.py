@@ -381,7 +381,7 @@ def summarizationLLM(question, evedance):
     3- Never add any extra information to the answer that is not in the context
     4- If the info nonsense like test of random letters just ignore it
     5- Don't start with Here's a summary of the context just dive into the summary
-    6- Make it as short and concise as possible
+    6- This summary is used for diplomatic reasons so don't skip important information.
 
     Do not add information that is not in the context. Just answer the question based on the evedance provided. If answer not available just say "I could'nt find the answer". All of your answers are in plain English with a direct frendly tone
     '''

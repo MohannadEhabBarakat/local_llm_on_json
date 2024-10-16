@@ -118,7 +118,8 @@ def summarization_format_data(extracted_data:Dict, question:str) -> Dict:
             ans[country] = []
             for point in tmp_evedance:
                 ans[country].append(summarizationLLM(question, point))
-
+            # print(ans[country])
+            ans[country] = summarizationLLM(question, ans[country])
     return {"answer":ans, "countries": list(evedance.keys()), "evedance": evedance}
 
 
