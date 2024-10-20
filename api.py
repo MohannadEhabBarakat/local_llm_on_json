@@ -9,13 +9,14 @@ import json
 import ast
 
 app = FastAPI()
-sortable_data, summarization_data = data_load()
 
 class Data(BaseModel):
     data: dict
 
 @app.get("/")
 def read_root(question:str):
+    sortable_data, summarization_data = data_load()
+
     return answer(question, sortable_data, summarization_data)
 
 
@@ -33,5 +34,5 @@ def update_file(file: UploadFile):
     # print(json.loads(file.file.read().decode("utf-8")).keys())
     with open("data.json", "w") as f:
         json.dump(json.loads(file.file.read().decode("utf-8")), f)
-
+    
     return data_prep("data.json")
